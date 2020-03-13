@@ -76,12 +76,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "bcadcc7e-28c7-4806-8420-6ad1876f3da3"
+          "Id": "38504ea1-9bc3-4bd3-a05a-32d1c515190d"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "7fd11f94-e6be-4f5c-b6f8-f7c2b87f110f"
+          "Id": "41c026a6-3f0e-4695-a726-8803f266632d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -236,7 +236,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AY16"
             },
-            "Id": "fbceef64-c217-42b5-9bfa-3e83acc473cc"
+            "Id": "21bd6307-0336-4247-9fe4-188278b6460d"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -248,9 +248,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AG6"
             },
-            "Id": "8460c1c4-e8fe-4c5a-9201-5952f8127e75"
+            "Id": "3dee28b8-23de-4915-907e-19e0475215e4"
           },
-          "Id": "6e9ed56a-f687-4630-969e-a45f96cb277b"
+          "Id": "5532634c-6569-46d6-9989-2b29b15afd8d"
         }
       },
       "DataValidationInfo": {
@@ -271,7 +271,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "8413487d-16cc-4904-8f5f-2b5e1dbed583"
+          "Id": "8f0232eb-9ed2-4864-963e-b3a4683e666a"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -289,6 +289,12 @@
         ],
         "TemplateKey": "直角不透明",
         "WaterMark": "病人联系电话"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "FirstParamValue": "100000",
+        "SecondParamValue": "99999999999",
+        "ErrorMessage": "请输入正确的联系电话"
       }
     },
     "11,50": {
@@ -410,7 +416,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "alert(\"挂号成功，病人病历编号为\"+Forguncy.Page.getCell(\"RecordId\").getValue());",
-            "ID": "5dccd90a05144c55afc4fe9bd5ec6e99"
+            "ID": "40c94321d48b4c539124d4c7aed6308f"
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
@@ -482,12 +488,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "3d650408-7ae8-447c-9a1d-632b5da966e2"
+          "Id": "b8110514-163d-4e1d-8b08-b690fc6d109a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "ddae1ad6-c9a9-4a60-ad52-f2eb3b1763c7"
+          "Id": "81269802-6c8c-4068-8978-f19bfde4b54f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -506,7 +512,7 @@
               "Order": 0
             }
           ],
-          "Id": "d12002b8-9780-4a17-b1af-b0d9dcb7bcc4"
+          "Id": "ef997978-6ae8-411d-a9ca-82a52896da88"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
