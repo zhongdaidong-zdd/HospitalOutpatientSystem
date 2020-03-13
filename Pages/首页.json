@@ -83,7 +83,7 @@
               },
               "value": "挂号组",
               "compareType": 10,
-              "Id": "2c6058a8-aa21-41b0-a137-b49742503fd2"
+              "Id": "8012cae8-f236-42fc-b07f-84a9f770f0ed"
             },
             "CommandList": [
               {
@@ -106,7 +106,7 @@
               },
               "value": "收费组",
               "compareType": 10,
-              "Id": "79140b41-e598-478f-a44d-bbc1dedfc75e"
+              "Id": "3873234b-b9e2-4370-a8e6-9d2c1fe7082e"
             },
             "CommandList": [
               {
@@ -129,7 +129,7 @@
               },
               "value": "药品组",
               "compareType": 10,
-              "Id": "d1337192-6b24-4811-ae3d-38af5b83b84e"
+              "Id": "87f26345-192d-4a21-9dab-5b7c9de3d912"
             },
             "CommandList": [
               {
@@ -152,7 +152,7 @@
               },
               "value": "管理员",
               "compareType": 10,
-              "Id": "f7411b4b-0453-4ccb-a8d6-0e0542510741"
+              "Id": "a07c8ca6-fc03-4439-aa96-f0a1dffe9d9b"
             },
             "CommandList": [
               {
@@ -175,7 +175,7 @@
               },
               "value": "医生组",
               "compareType": 10,
-              "Id": "87866401-955f-43a0-9cda-4ceb643abd4b"
+              "Id": "6e0128ac-1f5c-49d4-9c88-f1aa5480851a"
             },
             "CommandList": [
               {
@@ -189,9 +189,8 @@
           {
             "CommandList": [
               {
-                "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
-                "JavaScript": "alert(\"对不起，当前用户无权限登录系统，请重新选择用户登录。\");",
-                "ID": "1bec30069c1540fcb95790b2c1909377"
+                "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                "MessageFormula": "对不起，当前用户无权限登录系统，请重新选择用户登录。"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
