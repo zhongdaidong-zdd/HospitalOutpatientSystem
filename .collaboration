@@ -210,7 +210,16 @@
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "ModuleType": 11
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-13T15:05:06.9711463+08:00",
+    "ModuleType": 11,
+    "ToRemoveFiles": [
+      "UserServiceDB.sqlite3"
+    ]
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
