@@ -83,7 +83,7 @@
               },
               "value": "管理员",
               "compareType": 10,
-              "Id": "b67e50ae-c223-442a-9007-6ace1e68da10"
+              "Id": "b41d11d5-c9cb-47b4-b16a-17b6845828c8"
             },
             "CommandList": [
               {
@@ -106,7 +106,7 @@
               },
               "value": "挂号组",
               "compareType": 10,
-              "Id": "1147e399-5227-402a-a5ed-6b47d0443bef"
+              "Id": "1933b548-6b44-47ec-9cea-9e2b6eecf262"
             },
             "CommandList": [
               {
@@ -129,7 +129,7 @@
               },
               "value": "医生组",
               "compareType": 10,
-              "Id": "108907cf-f649-4d38-9991-49d0e6604cc2"
+              "Id": "3d43bbb0-da33-4073-80c7-16426b821ca5"
             },
             "CommandList": [
               {
@@ -152,7 +152,7 @@
               },
               "value": "收费组",
               "compareType": 10,
-              "Id": "bf92a3b4-5599-454d-8310-25c6422a6363"
+              "Id": "4584fc1d-3557-4695-a732-d597b7287690"
             },
             "CommandList": [
               {
@@ -175,7 +175,7 @@
               },
               "value": "药品组",
               "compareType": 10,
-              "Id": "c0bf4842-7a66-4a13-9cad-04b01e16fe03"
+              "Id": "a08e87c1-00df-482e-b60f-db3ee66662e3"
             },
             "CommandList": [
               {
