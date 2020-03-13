@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <FocusMoveMode>Default</FocusMoveMode>
+  <IntegrateWithOtherApplication>
+    <Password>6hpIb@szoMIi</Password>
+  </IntegrateWithOtherApplication>
+  <StartPage>首页</StartPage>
+  <UserServicePort>31652</UserServicePort>
+  <WebSitePort>47518</WebSitePort>
+</ApplicationSettings>

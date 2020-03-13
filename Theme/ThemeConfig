@@ -1,0 +1,37 @@
+{
+  "BasePathName": "01Forguncy",
+  "FontFamily": "微软雅黑",
+  "ThemeColors": {
+    "Name": "Forguncy",
+    "Colors": {
+      "Name": "",
+      "ColorList": [
+        "#FFFFFFFF",
+        "#FFEAEBDE",
+        "#FF000000",
+        "#FF042531",
+        "#FF2B8CD5",
+        "#FF40BCBF",
+        "#FFD5D52B",
+        "#FFD5952B",
+        "#FFD53C2B",
+        "#FF5555AA",
+        "#00FFFFFF",
+        "#00FFFFFF"
+      ],
+      "BackgroundColor1": "#FFFFFFFF",
+      "BackgroundColor2": "#FFEAEBDE",
+      "TextColor1": "#FF000000",
+      "TextColor2": "#FF042531",
+      "Accent1": "#FF2B8CD5",
+      "Accent2": "#FF40BCBF",
+      "Accent3": "#FFD5D52B",
+      "Accent4": "#FFD5952B",
+      "Accent5": "#FFD53C2B",
+      "Accent6": "#FF5555AA",
+      "Hyperlink": "#00FFFFFF",
+      "FollowedHyperlink": "#00FFFFFF"
+    },
+    "Category": "内建"
+  }
+}

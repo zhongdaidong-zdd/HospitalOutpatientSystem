@@ -1,0 +1,16 @@
+﻿
+div#r1c2p:hover{
+  background-image: url(/GeneratedResources/Images/GenerateImages/ImageCellType/RegistrationHover.png) !important;
+}
+
+div#r1c14p:hover{
+  background-image: url(/GeneratedResources/Images/GenerateImages/ImageCellType/InquiryHover.png) !important;
+}
+
+div#r1c26p:hover{
+  background-image: url(/GeneratedResources/Images/GenerateImages/ImageCellType/PaymentHover.png) !important;
+}
+
+div#r1c38p:hover{
+  background-image: url(/GeneratedResources/Images/GenerateImages/ImageCellType/TakeMedicineHover.png) !important;
+}

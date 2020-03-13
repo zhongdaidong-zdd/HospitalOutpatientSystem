@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableSet>
+  <Relations>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>挂号医生ID</ForeignColumn>
+      <ForeignTable>门诊挂号单表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>医院医生字典表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>门诊挂号单ID</ForeignColumn>
+      <ForeignTable>门诊挂号单_项目表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>门诊挂号单表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>药品ID</ForeignColumn>
+      <ForeignTable>门诊挂号单_项目表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>项目字典表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>药品字典表ID</ForeignColumn>
+      <ForeignTable>药品变动表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>项目字典表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+    <Item class="Forguncy.ForeignkeyInfomation" assembly="ForguncyDataAccess">
+      <ForeignColumn>医生所在科室</ForeignColumn>
+      <ForeignTable>医院医生字典表</ForeignTable>
+      <IsDetailTableRelation>False</IsDetailTableRelation>
+      <PrimaryColumn>ID</PrimaryColumn>
+      <PrimaryTable>医院科室字典表</PrimaryTable>
+      <RelationTypeOnDelete>None</RelationTypeOnDelete>
+      <RelationTypeOnUpdate>None</RelationTypeOnUpdate>
+    </Item>
+  </Relations>
+  <Tables>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <ColumnPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>门诊挂号单表</TableName>
+      </ColumnPermissions>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoGenreatedIDSetting>
+            <Composition>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>Date</ComponentType>
+                <Content type="System.String">
+                  <Value>yyyymmdd</Value>
+                </Content>
+              </Item>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>Number</ComponentType>
+                <Content type="System.Int64">
+                  <Value>3</Value>
+                </Content>
+              </Item>
+            </Composition>
+            <GenerateTime>OpenPage</GenerateTime>
+            <IgnoreConflictWhenSave>False</IgnoreConflictWhenSave>
+            <ReusingMode>Never</ReusingMode>
+          </AutoGenreatedIDSetting>
+          <ColumnType>System.String</ColumnType>
+          <IsAutoGenreatedIDSettingEnable>True</IsAutoGenreatedIDSettingEnable>
+          <Name>病历编号</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>病人姓名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>病人性别</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>挂号医生ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>挂号日期</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.TimeSpan</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>挂号时间</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>联系方式</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue type="System.String">
+            <Value>待就诊</Value>
+          </DefaultValue>
+          <Name>门诊挂号状态</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>诊断结论</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Boolean</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>医生是否完成问诊</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.StatisticColumn" assembly="Forguncy">
+          <AggregateFunction>COUNT</AggregateFunction>
+          <ColumnType>System.Int32</ColumnType>
+          <DataColumnName>ID</DataColumnName>
+          <Name>人数</Name>
+        </Item>
+      </Columns>
+      <Name>门诊挂号单表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <RowPermissions>
+        <TableName>门诊挂号单表</TableName>
+      </RowPermissions>
+      <Weight>0</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>门诊挂号单ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>药品ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>药品数量</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>划价</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>医生嘱咐</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue type="System.String">
+            <Value>进行中</Value>
+          </DefaultValue>
+          <Name>项目状态</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>门诊挂号单_项目表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <ColumnPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>药品变动表</TableName>
+      </ColumnPermissions>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>药品字典表ID</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>数量</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>日期</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.TimeSpan</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>时间</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>种类</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <CreateRecordPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <AllowCreateRecord>True</AllowCreateRecord>
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+      </CreateRecordPermissions>
+      <Name>药品变动表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <RowPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Delete>True</Delete>
+            <Edit>True</Edit>
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Edit>True</Edit>
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.CreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.LeaderOfCreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>药品变动表</TableName>
+      </RowPermissions>
+      <Weight>3</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoGenreatedIDSetting>
+            <Composition>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>StaticText</ComponentType>
+                <Content type="System.String">
+                  <Value>陕西省医院项目_</Value>
+                </Content>
+              </Item>
+              <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
+                <ComponentType>Number</ComponentType>
+                <Content type="System.Int64">
+                  <Value>5</Value>
+                </Content>
+              </Item>
+            </Composition>
+            <GenerateTime>OpenPage</GenerateTime>
+            <IgnoreConflictWhenSave>False</IgnoreConflictWhenSave>
+            <ReusingMode>Never</ReusingMode>
+          </AutoGenreatedIDSetting>
+          <ColumnType>System.String</ColumnType>
+          <IsAutoGenreatedIDSettingEnable>True</IsAutoGenreatedIDSettingEnable>
+          <Name>项目编号</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>项目名称</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>药品单价</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>药品数量</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>药品进货价格</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>类型</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>项目字典表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>4</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>科室名称</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>医院科室字典表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>5</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>医生姓名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>出生日期</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>医生所在科室</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <Name>问诊病人最大数量</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.ImageBindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>头像</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <Name>挂号费</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <Name>医院医生字典表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>6</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <ColumnPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.ColumnPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>金额交易表</TableName>
+      </ColumnPermissions>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <AutoIncrement>True</AutoIncrement>
+          <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <MaxLength>-1</MaxLength>
+          <Name>ID</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue type="System.String">
+            <Value>挂号</Value>
+          </DefaultValue>
+          <Name>来源</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>金额</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <Name>种类</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>System.Double</DatabaseColumnType>
+          <Name>交易日期</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.TimeSpan</ColumnType>
+          <Name>交易时间</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_Creator</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_CreateDate</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <Name>FGC_LastModifier</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+          <ColumnType>System.DateTime</ColumnType>
+          <Name>FGC_LastModifyDate</Name>
+        </Item>
+      </Columns>
+      <CreateRecordPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <AllowCreateRecord>True</AllowCreateRecord>
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.CreateRecordPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+      </CreateRecordPermissions>
+      <Name>金额交易表</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>ID</Value>
+        </Item>
+      </PrimaryKey>
+      <RowPermissions>
+        <PermissionItems>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Delete>True</Delete>
+            <Edit>True</Edit>
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.Role" assembly="Forguncy.Permission">
+              <RoleName>Administrator</RoleName>
+            </Who>
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Edit>True</Edit>
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.CreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Read>True</Read>
+            <Who class="Forguncy.Permission.LeaderOfCreatorOfRecord" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.LoginUser" assembly="Forguncy.Permission" />
+          </Item>
+          <Item class="Forguncy.Permission.RowPermissionItem" assembly="Forguncy.Permission">
+            <Who class="Forguncy.Permission.AnyOne" assembly="Forguncy.Permission" />
+          </Item>
+        </PermissionItems>
+        <TableName>金额交易表</TableName>
+      </RowPermissions>
+      <Weight>2</Weight>
+    </Item>
+  </Tables>
+</TableSet>

@@ -1,0 +1,217 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "宋体",
+        "Normal",
+        "General",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 0,
+      "5,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, Forguncy",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "挂号组",
+              "compareType": 10,
+              "Id": "2c6058a8-aa21-41b0-a137-b49742503fd2"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "挂号",
+                "PassValues": []
+              }
+            ],
+            "ID": "f9644f75-78d1-44a1-a23a-d53c500c4931"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, Forguncy",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "收费组",
+              "compareType": 10,
+              "Id": "79140b41-e598-478f-a44d-bbc1dedfc75e"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "缴费页面",
+                "PassValues": []
+              }
+            ],
+            "ID": "731af1d2-bf07-4142-814b-7ccb118a0915"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, Forguncy",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "药品组",
+              "compareType": 10,
+              "Id": "d1337192-6b24-4811-ae3d-38af5b83b84e"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "药房检查科结束项目",
+                "PassValues": []
+              }
+            ],
+            "ID": "75d74c32-3e11-4c4b-95b9-3d2e49ce1689"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, Forguncy",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "管理员",
+              "compareType": 10,
+              "Id": "f7411b4b-0453-4ccb-a8d6-0e0542510741"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "管理员首页",
+                "PassValues": []
+              }
+            ],
+            "ID": "be91591d-dbbf-4294-941f-f1e8329a2d47"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionCurrentUserInfoParam, Forguncy",
+                "currentUserProperty": {
+                  "UserProperty": "角色",
+                  "PropertyType": 3
+                }
+              },
+              "value": "医生组",
+              "compareType": 10,
+              "Id": "87866401-955f-43a0-9cda-4ceb643abd4b"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "医生问诊页面",
+                "PassValues": []
+              }
+            ],
+            "ID": "a10098aa-c0d6-4255-a1de-c250f3820a79"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+                "JavaScript": "alert(\"对不起，当前用户无权限登录系统，请重新选择用户登录。\");",
+                "ID": "1bec30069c1540fcb95790b2c1909377"
+              },
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "FGC_登录",
+                "PassValues": []
+              }
+            ],
+            "ID": "78f5b48c-26b4-434e-986e-cf4ead58aa0f"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
