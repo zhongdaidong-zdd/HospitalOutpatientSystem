@@ -81,14 +81,14 @@
                   "PropertyType": 3
                 }
               },
-              "value": "挂号组",
+              "value": "管理员",
               "compareType": 10,
-              "Id": "8012cae8-f236-42fc-b07f-84a9f770f0ed"
+              "Id": "b67e50ae-c223-442a-9007-6ace1e68da10"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "挂号",
+                "PageName": "管理员首页",
                 "PassValues": []
               }
             ],
@@ -104,14 +104,14 @@
                   "PropertyType": 3
                 }
               },
-              "value": "收费组",
+              "value": "挂号组",
               "compareType": 10,
-              "Id": "3873234b-b9e2-4370-a8e6-9d2c1fe7082e"
+              "Id": "1147e399-5227-402a-a5ed-6b47d0443bef"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "缴费页面",
+                "PageName": "挂号",
                 "PassValues": []
               }
             ],
@@ -127,14 +127,14 @@
                   "PropertyType": 3
                 }
               },
-              "value": "药品组",
+              "value": "医生组",
               "compareType": 10,
-              "Id": "87f26345-192d-4a21-9dab-5b7c9de3d912"
+              "Id": "108907cf-f649-4d38-9991-49d0e6604cc2"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "药房检查科结束项目",
+                "PageName": "医生问诊页面",
                 "PassValues": []
               }
             ],
@@ -150,14 +150,14 @@
                   "PropertyType": 3
                 }
               },
-              "value": "管理员",
+              "value": "收费组",
               "compareType": 10,
-              "Id": "a07c8ca6-fc03-4439-aa96-f0a1dffe9d9b"
+              "Id": "bf92a3b4-5599-454d-8310-25c6422a6363"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "管理员首页",
+                "PageName": "缴费页面",
                 "PassValues": []
               }
             ],
@@ -173,14 +173,14 @@
                   "PropertyType": 3
                 }
               },
-              "value": "医生组",
+              "value": "药品组",
               "compareType": 10,
-              "Id": "6e0128ac-1f5c-49d4-9c88-f1aa5480851a"
+              "Id": "c0bf4842-7a66-4a13-9cad-04b01e16fe03"
             },
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "医生问诊页面",
+                "PageName": "药房检查科结束项目",
                 "PassValues": []
               }
             ],
