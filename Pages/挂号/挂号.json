@@ -414,9 +414,11 @@
             ]
           },
           {
-            "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
-            "JavaScript": "alert(\"挂号成功，病人病历编号为\"+Forguncy.Page.getCell(\"RecordId\").getValue());",
-            "ID": "40c94321d48b4c539124d4c7aed6308f"
+            "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+            "MessageFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=\"挂号成功，病人病历编号为\"&挂号!RecordId"
+            }
           },
           {
             "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
