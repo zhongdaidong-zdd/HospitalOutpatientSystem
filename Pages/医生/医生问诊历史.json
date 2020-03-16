@@ -76,7 +76,7 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=医生问诊历史!AY31"
           },
-          "Id": "06d67677-1112-40de-b50e-cca8b2037f17"
+          "Id": "c5de1e7d-abdc-4e2c-ba83-fd784bdc7e52"
         },
         "DropDownSubItems": [
           {
@@ -170,12 +170,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=医生问诊历史!AJ4"
           },
-          "Id": "7ede7afa-8cd0-44ec-9fcf-0f695e524868"
+          "Id": "5eb5410e-ce91-42e2-927d-c12898f0ae91"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "09ecd145-e530-494b-8677-23c045363fd1"
+          "Id": "aa883415-ddcf-4749-b1c8-9611ba5505ee"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -194,7 +194,7 @@
               "Order": 0
             }
           ],
-          "Id": "7f65215a-9581-47a5-b905-272d5a4009dc"
+          "Id": "25b8f66c-6935-4ff7-afda-80d0eefedacd"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -288,7 +288,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "13c82d3d-dc7f-4fb1-85e2-9be9fa48599a"
+          "Id": "2a94c307-67a0-43f3-8620-edb170ce614b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -2731,8 +2731,6 @@
     "7,16,1,7",
     "7,23,1,5",
     "3,2,2,7",
-    "3,35,2,11",
-    "3,46,2,2",
     "7,37,1,6",
     "7,28,1,9",
     "7,43,1,5",
@@ -2747,7 +2745,9 @@
     "6,23,1,5",
     "6,28,1,9",
     "6,37,1,6",
-    "6,43,1,5"
+    "6,43,1,5",
+    "3,46,2,2",
+    "3,35,2,11"
   ],
   "BackgroundPictures": [
     {
@@ -2781,7 +2781,7 @@
               },
               "value": "管理员",
               "compareType": 10,
-              "Id": "55ad7fb3-46c8-44fb-bf70-beb3e8cee9ff"
+              "Id": "4f52d90f-b43a-4581-965a-a2eb978732b6"
             },
             "CommandList": [
               {
@@ -2802,7 +2802,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "=医生问诊历史!AY9"
                   },
-                  "Id": "a17d9152-fab5-46f7-bcd0-1b69d5aba59c"
+                  "Id": "3937aed7-fc13-4f1b-b6b7-1d6d88920833"
                 },
                 "Params": [
                   "=AY9"
@@ -2829,7 +2829,7 @@
                     }
                   },
                   "Value": "%CurrentUser%",
-                  "Id": "9ca442c7-188f-4e98-8213-6bd515861513"
+                  "Id": "f080395d-5afe-4f4f-9bf8-b9f2074f98ba"
                 },
                 "Params": [],
                 "ID": "8654f0da4a62470981011a4bca6b1089"
