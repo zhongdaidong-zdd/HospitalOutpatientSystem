@@ -23,20 +23,11 @@
         "ImagePath": "logo.png"
       }
     },
-    "3,2": {
-      "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "ImageSizeMode": 0,
-        "ImagePath": "Navigation/238_user_8.svg",
-        "BuiltIn": true,
-        "Color": "Background 1 0"
-      }
-    },
-    "3,4": {
+    "3,1": {
       "CellType": {
         "$type": "Forguncy.CurrentUserCellType, Forguncy",
-        "ShowUserPicture": false,
         "ShowNotification": false,
+        "NavigateToHomePageWhenLogout": true,
         "CellCustomValue": "%CurrentUser%"
       }
     },
@@ -297,7 +288,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "b914f1c9eceb44a5b3885fdf21bcfef3"
+                "ID": "3c58be38dc2b4259a44985ec537f2cb8"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -376,26 +367,6 @@
       {
         "Background": null,
         "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 2,
-        "Formatter": null,
-        "TextIndent": 0,
-        "HorizontalAlignment": 4,
-        "VerticalAlignment": 4,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": null,
-        "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "FontStretch": 1,
         "FontStyle": 1,
@@ -404,6 +375,22 @@
         "Formatter": null,
         "TextIndent": 5,
         "HorizontalAlignment": 6,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 4,
         "WordWrap": false,
         "Underline": false,
@@ -496,43 +483,17 @@
       "2,12": 3,
       "3,0": 0,
       "3,1": 4,
-      "3,2": 4,
-      "3,3": 4,
-      "3,4": 5,
-      "3,5": 5,
-      "3,6": 5,
-      "3,7": 5,
-      "3,8": 5,
-      "3,9": 5,
-      "3,10": 4,
-      "3,11": 4,
-      "3,12": 4,
+      "3,10": 5,
+      "3,11": 5,
+      "3,12": 5,
       "4,0": 6,
-      "4,1": 4,
-      "4,2": 4,
-      "4,3": 4,
-      "4,4": 5,
-      "4,5": 5,
-      "4,6": 5,
-      "4,7": 5,
-      "4,8": 5,
-      "4,9": 5,
-      "4,10": 4,
-      "4,11": 4,
-      "4,12": 4,
-      "5,0": 4,
-      "5,1": 4,
-      "5,2": 4,
-      "5,3": 4,
-      "5,4": 5,
-      "5,5": 5,
-      "5,6": 5,
-      "5,7": 5,
-      "5,8": 5,
-      "5,9": 5,
-      "5,10": 4,
-      "5,11": 4,
-      "5,12": 4,
+      "4,10": 5,
+      "4,11": 5,
+      "4,12": 5,
+      "5,0": 5,
+      "5,10": 5,
+      "5,11": 5,
+      "5,12": 5,
       "6,0": 7,
       "6,1": 8,
       "6,2": 8,
@@ -1048,10 +1009,9 @@
   "Spans": [
     "1,3,2,9",
     "1,1,2,2",
-    "3,2,3,2",
-    "3,4,3,6",
     "0,13,45,50",
-    "6,0,39,13"
+    "6,0,39,13",
+    "3,1,3,9"
   ],
   "BackgroundPictures": [
     {
