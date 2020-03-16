@@ -85,16 +85,7 @@
   },
   {
     "ModuleName": "医生问诊历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-16T16:25:29.059948+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊历史详情",
