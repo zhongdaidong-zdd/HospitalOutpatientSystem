@@ -38,9 +38,11 @@
     "21,22": "药品/检查",
     "21,32": "数量",
     "21,36": "单价",
+    "21,40": "项目类型",
     "21,42": "状态",
     "22,32": 1,
     "22,42": "进行中",
+    "27,53": "\r",
     "34,33": "检查",
     "34,39": "开药（结束本次问诊）"
   },
@@ -136,7 +138,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=TODAY()"
               },
-              "Id": "f882748b-e691-472e-96b3-07ec4b7ae641"
+              "Id": "d575a527-7ea7-4122-be50-d2dbcb4e1812"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -145,9 +147,9 @@
                 "ColumnName": "门诊挂号状态"
               },
               "Value": "待就诊",
-              "Id": "9a297170-31ab-4802-9e25-1cafa58996ed"
+              "Id": "457028cb-95cb-4338-9356-2b1c6abf3bc4"
             },
-            "Id": "611c0056-813f-47bd-832a-c6091b7ca59c"
+            "Id": "2745a03d-60c0-4b15-af4c-758d61b0db10"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -161,14 +163,14 @@
               }
             },
             "Value": "%CurrentUser%",
-            "Id": "f09178df-6308-41ba-b5c6-531e4c62e3d5"
+            "Id": "d6582ffb-5a2f-4665-bad9-6c1b63c43851"
           },
-          "Id": "5dd18728-20f1-4a0c-a4fd-c63888b3a358"
+          "Id": "080f36cf-9f81-4abd-84a5-d67df66529eb"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "21c705a2-2b1d-4a5a-bdde-738c0f49d075"
+          "Id": "02ad67c0-50b3-44ee-8fd5-5429d08044b4"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -187,7 +189,7 @@
               "Order": 0
             }
           ],
-          "Id": "a981ffa0-afc0-4d18-8a0c-9f78d1e41000"
+          "Id": "05e3e4f3-fed5-4f3b-b738-b8af1b02cc18"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -262,7 +264,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "fa4cb5ab-e735-4c82-ac7f-632ffd2e325f"
+          "Id": "c0a63506-6115-41bd-ab69-1bd554bde97d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -310,7 +312,7 @@
               "ColumnName": "药品数量"
             },
             "Value": "0",
-            "Id": "f65d3f2c-fc62-4a66-81c2-a6621ab26801"
+            "Id": "19537890-e513-4c06-ab78-a0434bb66c0d"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -319,10 +321,10 @@
               "ColumnName": "药品数量"
             },
             "Value": "%Null%",
-            "Id": "47cab01d-b190-4b32-a7c6-697c7f588bde"
+            "Id": "808a7493-c545-4f63-b320-9fe8d3a54b3d"
           },
           "RelationType": 1,
-          "Id": "a681be09-eb50-498b-9cf2-68af2383ba99"
+          "Id": "0476e756-ad90-4b55-a702-0d0edd1af3be"
         }
       },
       "BindingInfo": {
@@ -391,7 +393,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "f9257f38-4c15-49a1-bed7-25108e602d43"
+                  "Id": "cedf61b3-7e4d-4d54-a40d-723c8bea9a79"
                 },
                 "CommandList": [
                   {
@@ -408,18 +410,7 @@
                     "PropertyItemsList": [
                       {
                         "Cell": {
-                          "SerializeProperty": "=医生问诊页面!BB23"
-                        },
-                        "Value": "已完成"
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
-                    "PropertyItemsList": [
-                      {
-                        "Cell": {
-                          "SerializeProperty": "=医生问诊页面!BB25"
+                          "SerializeProperty": "=医生问诊页面!检查状态"
                         },
                         "Value": "0"
                       }
@@ -437,17 +428,34 @@
                         "ConditionAndCommandPairList": [
                           {
                             "Condition": {
-                              "$type": "Forguncy.Model.IfCondition, Forguncy",
-                              "param": {
-                                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                                "cellLocations": [
-                                  {
-                                    "SerializeProperty": "=医生问诊页面!AQ23"
-                                  }
-                                ]
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "Condition1": {
+                                "$type": "Forguncy.Model.IfCondition, Forguncy",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=医生问诊页面!AQ23"
+                                    }
+                                  ]
+                                },
+                                "value": "进行中",
+                                "Id": "ce11539e-8acc-4ee5-adc4-a25ab92fa3ab"
                               },
-                              "value": "进行中",
-                              "Id": "ea310cda-a2a8-4164-a236-629b029cd2c9"
+                              "Condition2": {
+                                "$type": "Forguncy.Model.IfCondition, Forguncy",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=医生问诊页面!AO23"
+                                    }
+                                  ]
+                                },
+                                "value": "检查项目",
+                                "Id": "28685d47-472d-40b2-a45e-f030534dfeed"
+                              },
+                              "Id": "b92a591c-8149-43f5-a1f5-2a9e3b36a1bb"
                             },
                             "CommandList": [
                               {
@@ -455,48 +463,14 @@
                                 "PropertyItemsList": [
                                   {
                                     "Cell": {
-                                      "SerializeProperty": "=医生问诊页面!BB23"
-                                    },
-                                    "Value": "进行中"
-                                  }
-                                ]
-                              }
-                            ],
-                            "ID": "1674d58f-fe07-476b-b609-2825dcf9cabf"
-                          }
-                        ]
-                      },
-                      {
-                        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
-                        "ConditionAndCommandPairList": [
-                          {
-                            "Condition": {
-                              "$type": "Forguncy.Model.IfCondition, Forguncy",
-                              "param": {
-                                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                                "cellLocations": [
-                                  {
-                                    "SerializeProperty": "=医生问诊页面!AO23"
-                                  }
-                                ]
-                              },
-                              "value": "检查项目",
-                              "Id": "e5882899-cc2f-440b-b36c-adc6ab3e2498"
-                            },
-                            "CommandList": [
-                              {
-                                "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
-                                "PropertyItemsList": [
-                                  {
-                                    "Cell": {
-                                      "SerializeProperty": "=医生问诊页面!BB25"
+                                      "SerializeProperty": "=医生问诊页面!检查状态"
                                     },
                                     "Value": "1"
                                   }
                                 ]
                               }
                             ],
-                            "ID": "1b8141a9-0375-4276-9941-f35eb0e3539a"
+                            "ID": "1674d58f-fe07-476b-b609-2825dcf9cabf"
                           }
                         ]
                       }
@@ -512,17 +486,17 @@
                             "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                             "cellLocations": [
                               {
-                                "SerializeProperty": "=医生问诊页面!BB25"
+                                "SerializeProperty": "=医生问诊页面!检查状态"
                               }
                             ]
                           },
                           "value": "0",
-                          "Id": "e5a91488-b692-4ebc-8dff-738094280d0e"
+                          "Id": "ac90d671-f7cf-49e6-91dc-e6913defb8ef"
                         },
                         "CommandList": [
                           {
                             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                            "MessageFormula": "无检查项目，请检查项目列表。"
+                            "MessageFormula": "无未完成检查项目，请检查项目列表。"
                           }
                         ],
                         "ID": "43f991ab-e59e-4a71-b3a4-e42527e597d5"
@@ -530,62 +504,14 @@
                       {
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
-                            "ConditionAndCommandPairList": [
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                            "TableName": "门诊挂号单表",
+                            "ShowConfirm": false,
+                            "ConfirmText": "您确定要更新这行记录吗？",
+                            "UpdateValues": [
                               {
-                                "Condition": {
-                                  "$type": "Forguncy.Model.IfCondition, Forguncy",
-                                  "param": {
-                                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                                    "cellLocations": [
-                                      {
-                                        "SerializeProperty": "=医生问诊页面!BB23"
-                                      }
-                                    ]
-                                  },
-                                  "value": "进行中",
-                                  "Id": "99e54a48-9de4-4fe5-be45-024acfb6b933"
-                                },
-                                "CommandList": [
-                                  {
-                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                                    "TableName": "门诊挂号单表",
-                                    "ShowConfirm": false,
-                                    "ConfirmText": "您确定要更新这行记录吗？",
-                                    "UpdateValues": [
-                                      {
-                                        "ColumnName": "门诊挂号状态",
-                                        "Value": "待缴费"
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "ID": "b0307852-8b41-451c-963f-3ec0548548f9"
-                              },
-                              {
-                                "CommandList": [
-                                  {
-                                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                                    "MessageFormula": "病人完成就诊"
-                                  },
-                                  {
-                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                                    "TableName": "门诊挂号单表",
-                                    "ShowConfirm": false,
-                                    "ConfirmText": "您确定要更新这行记录吗？",
-                                    "UpdateValues": [
-                                      {
-                                        "ColumnName": "门诊挂号状态",
-                                        "Value": "已完成"
-                                      },
-                                      {
-                                        "ColumnName": "医生是否完成问诊",
-                                        "Value": "1"
-                                      }
-                                    ]
-                                  }
-                                ],
-                                "ID": "8cc0acf2-94d5-40a9-be39-610b8d2d7352"
+                                "ColumnName": "门诊挂号状态",
+                                "Value": "待缴费"
                               }
                             ]
                           }
@@ -623,7 +549,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "615c271a-52c4-4a11-b755-3f034b700c53"
+                  "Id": "dd306b42-2d80-455b-9492-37df0d2ed83e"
                 },
                 "CommandList": [
                   {
@@ -640,9 +566,20 @@
                     "PropertyItemsList": [
                       {
                         "Cell": {
-                          "SerializeProperty": "=医生问诊页面!BB23"
+                          "SerializeProperty": "=医生问诊页面!开药状态"
                         },
-                        "Value": "已完成"
+                        "Value": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "=医生问诊页面!门诊是否完成"
+                        },
+                        "Value": "1"
                       }
                     ]
                   },
@@ -668,7 +605,7 @@
                                 ]
                               },
                               "value": "进行中",
-                              "Id": "b2943767-5755-4f1d-919d-14f8e02165cc"
+                              "Id": "2f7cd915-19e1-4c0e-82e7-da9b995afcd1"
                             },
                             "CommandList": [
                               {
@@ -676,9 +613,43 @@
                                 "PropertyItemsList": [
                                   {
                                     "Cell": {
-                                      "SerializeProperty": "=医生问诊页面!BB23"
+                                      "SerializeProperty": "=医生问诊页面!门诊是否完成"
                                     },
-                                    "Value": "进行中"
+                                    "Value": "0"
+                                  }
+                                ]
+                              },
+                              {
+                                "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+                                "ConditionAndCommandPairList": [
+                                  {
+                                    "Condition": {
+                                      "$type": "Forguncy.Model.IfCondition, Forguncy",
+                                      "param": {
+                                        "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                        "cellLocations": [
+                                          {
+                                            "SerializeProperty": "=医生问诊页面!AO23"
+                                          }
+                                        ]
+                                      },
+                                      "value": "检查项目",
+                                      "Id": "6cc78e84-24ff-4bc8-98c8-e27d08a6d4ca"
+                                    },
+                                    "CommandList": [
+                                      {
+                                        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                                        "PropertyItemsList": [
+                                          {
+                                            "Cell": {
+                                              "SerializeProperty": "=医生问诊页面!开药状态"
+                                            },
+                                            "Value": "0"
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "ID": "17ce76db-27f4-41e9-86d6-e3fcdc6d9161"
                                   }
                                 ]
                               }
@@ -699,29 +670,17 @@
                             "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                             "cellLocations": [
                               {
-                                "SerializeProperty": "=医生问诊页面!BB23"
+                                "SerializeProperty": "=医生问诊页面!开药状态"
                               }
                             ]
                           },
-                          "value": "进行中",
-                          "Id": "f3cdd81b-8130-4c2c-ba04-f1edd66f4aa0"
+                          "value": "0",
+                          "Id": "848dbb61-0cec-432f-8531-2118d2e928fc"
                         },
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "门诊挂号单表",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要更新这行记录吗？",
-                            "UpdateValues": [
-                              {
-                                "ColumnName": "门诊挂号状态",
-                                "Value": "待缴费"
-                              },
-                              {
-                                "ColumnName": "医生是否完成问诊",
-                                "Value": "1"
-                              }
-                            ]
+                            "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                            "MessageFormula": "有未完成的检查项目，请先检查。"
                           }
                         ],
                         "ID": "c7102278-3ccd-4ddf-8200-fd4bb67b7087"
@@ -730,33 +689,65 @@
                         "CommandList": [
                           {
                             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                            "MessageFormula": "病人已完成就诊"
+                            "MessageFormula": "已完成问诊。"
                           },
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "门诊挂号单表",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要更新这行记录吗？",
-                            "RowsToUpdateCondition": {
-                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                              "ColumnBindingInfo": {
-                                "TableName": "门诊挂号单表",
-                                "ColumnName": "ID"
-                              },
-                              "Value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                "SerializeProperty": "=医生问诊页面!T4"
-                              },
-                              "Id": "a40aff52-84f8-4b88-85d8-187441451259"
-                            },
-                            "UpdateValues": [
+                            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+                            "ConditionAndCommandPairList": [
                               {
-                                "ColumnName": "门诊挂号状态",
-                                "Value": "已完成"
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "=医生问诊页面!门诊是否完成"
+                                      }
+                                    ]
+                                  },
+                                  "value": "0",
+                                  "Id": "e1b5cd48-d5d2-4b80-97d3-880d82548eb4"
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                                    "TableName": "门诊挂号单表",
+                                    "ShowConfirm": false,
+                                    "ConfirmText": "您确定要更新这行记录吗？",
+                                    "UpdateValues": [
+                                      {
+                                        "ColumnName": "门诊挂号状态",
+                                        "Value": "待缴费"
+                                      },
+                                      {
+                                        "ColumnName": "医生是否完成问诊",
+                                        "Value": "1"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "ID": "8aa7afa3-83f1-456e-ade5-e41707b7cc10"
                               },
                               {
-                                "ColumnName": "医生是否完成问诊",
-                                "Value": "1"
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                                    "TableName": "门诊挂号单表",
+                                    "ShowConfirm": false,
+                                    "ConfirmText": "您确定要更新这行记录吗？",
+                                    "UpdateValues": [
+                                      {
+                                        "ColumnName": "门诊挂号状态",
+                                        "Value": "已完成"
+                                      },
+                                      {
+                                        "ColumnName": "医生是否完成问诊",
+                                        "Value": "1"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "ID": "0321b237-82ce-4d33-9bf4-c53e60840616"
                               }
                             ]
                           }
@@ -1200,6 +1191,9 @@
         "Background": 18
       },
       {
+        "Background": 19
+      },
+      {
         "FontFamily": 11
       },
       {
@@ -1289,7 +1283,8 @@
         "Top",
         "@",
         "Accent 4",
-        "#FF92D050"
+        "#FF92D050",
+        "Accent 2 40"
       ],
       "Borders": [
         {
@@ -2547,6 +2542,7 @@
       "27,48": 43,
       "27,50": 10,
       "27,51": 10,
+      "27,53": 46,
       "27,57": 32,
       "28,1": 0,
       "28,2": 29,
@@ -2678,7 +2674,7 @@
       "30,54": 14,
       "30,55": 14,
       "30,56": 14,
-      "30,58": 46,
+      "30,58": 47,
       "31,1": 0,
       "31,2": 29,
       "31,3": 0,
@@ -2720,8 +2716,8 @@
       "31,48": 43,
       "31,50": 10,
       "31,51": 10,
-      "31,57": 46,
-      "31,58": 46,
+      "31,57": 47,
+      "31,58": 47,
       "32,1": 0,
       "32,2": 29,
       "32,3": 0,
@@ -2763,8 +2759,8 @@
       "32,48": 43,
       "32,50": 10,
       "32,51": 10,
-      "32,57": 46,
-      "32,58": 46,
+      "32,57": 47,
+      "32,58": 47,
       "33,1": 0,
       "33,2": 29,
       "33,3": 0,
@@ -2777,40 +2773,40 @@
       "33,10": 0,
       "33,18": 30,
       "33,21": 7,
-      "33,22": 47,
-      "33,23": 47,
-      "33,24": 47,
-      "33,25": 47,
-      "33,26": 47,
-      "33,27": 47,
-      "33,28": 47,
-      "33,29": 47,
-      "33,30": 47,
-      "33,31": 47,
-      "33,32": 47,
-      "33,33": 47,
-      "33,34": 47,
-      "33,35": 47,
-      "33,36": 47,
-      "33,37": 47,
-      "33,38": 47,
-      "33,39": 47,
-      "33,40": 46,
-      "33,41": 48,
-      "33,42": 48,
-      "33,43": 48,
-      "33,44": 48,
-      "33,45": 48,
-      "33,46": 48,
-      "33,47": 48,
-      "33,48": 48,
-      "33,49": 47,
+      "33,22": 48,
+      "33,23": 48,
+      "33,24": 48,
+      "33,25": 48,
+      "33,26": 48,
+      "33,27": 48,
+      "33,28": 48,
+      "33,29": 48,
+      "33,30": 48,
+      "33,31": 48,
+      "33,32": 48,
+      "33,33": 48,
+      "33,34": 48,
+      "33,35": 48,
+      "33,36": 48,
+      "33,37": 48,
+      "33,38": 48,
+      "33,39": 48,
+      "33,40": 47,
+      "33,41": 49,
+      "33,42": 49,
+      "33,43": 49,
+      "33,44": 49,
+      "33,45": 49,
+      "33,46": 49,
+      "33,47": 49,
+      "33,48": 49,
+      "33,49": 48,
       "33,50": 10,
       "33,51": 10,
-      "33,52": 47,
-      "33,53": 47,
-      "33,54": 47,
-      "33,55": 47,
+      "33,52": 48,
+      "33,53": 48,
+      "33,54": 48,
+      "33,55": 48,
       "34,0": 0,
       "34,1": 0,
       "34,2": 29,
@@ -2829,148 +2825,148 @@
       "34,15": 0,
       "34,16": 0,
       "34,17": 0,
-      "34,18": 49,
+      "34,18": 50,
       "34,19": 0,
       "34,20": 0,
       "34,21": 0,
-      "34,22": 47,
-      "34,23": 47,
-      "34,24": 47,
-      "34,25": 47,
+      "34,22": 48,
+      "34,23": 48,
+      "34,24": 48,
+      "34,25": 48,
       "34,32": 7,
       "34,33": 11,
-      "34,34": 50,
-      "34,35": 50,
-      "34,36": 50,
-      "34,37": 50,
-      "34,38": 51,
+      "34,34": 51,
+      "34,35": 51,
+      "34,36": 51,
+      "34,37": 51,
+      "34,38": 52,
       "34,39": 8,
-      "34,41": 50,
-      "34,42": 50,
-      "34,43": 50,
-      "34,44": 50,
-      "34,45": 50,
-      "34,46": 50,
-      "34,47": 50,
-      "34,48": 50,
-      "34,49": 47,
+      "34,41": 51,
+      "34,42": 51,
+      "34,43": 51,
+      "34,44": 51,
+      "34,45": 51,
+      "34,46": 51,
+      "34,47": 51,
+      "34,48": 51,
+      "34,49": 48,
       "34,50": 10,
       "34,51": 10,
-      "34,52": 47,
-      "34,53": 47,
-      "34,54": 47,
-      "34,55": 47,
+      "34,52": 48,
+      "34,53": 48,
+      "34,54": 48,
+      "34,55": 48,
       "34,56": 0,
       "34,57": 0,
       "34,58": 0,
       "35,0": 0,
       "35,1": 0,
-      "35,2": 52,
-      "35,3": 53,
-      "35,4": 53,
-      "35,5": 53,
-      "35,6": 53,
-      "35,7": 53,
-      "35,8": 53,
-      "35,9": 53,
-      "35,10": 53,
-      "35,11": 53,
-      "35,12": 53,
-      "35,13": 53,
-      "35,14": 53,
-      "35,15": 53,
-      "35,16": 53,
-      "35,17": 53,
-      "35,18": 54,
+      "35,2": 53,
+      "35,3": 54,
+      "35,4": 54,
+      "35,5": 54,
+      "35,6": 54,
+      "35,7": 54,
+      "35,8": 54,
+      "35,9": 54,
+      "35,10": 54,
+      "35,11": 54,
+      "35,12": 54,
+      "35,13": 54,
+      "35,14": 54,
+      "35,15": 54,
+      "35,16": 54,
+      "35,17": 54,
+      "35,18": 55,
       "35,19": 0,
       "35,20": 0,
       "35,21": 0,
-      "35,22": 47,
-      "35,23": 47,
-      "35,24": 47,
-      "35,25": 47,
+      "35,22": 48,
+      "35,23": 48,
+      "35,24": 48,
+      "35,25": 48,
       "35,32": 7,
-      "35,33": 50,
-      "35,34": 50,
-      "35,35": 50,
-      "35,36": 50,
-      "35,37": 50,
-      "35,38": 51,
-      "35,39": 50,
-      "35,41": 50,
-      "35,42": 50,
-      "35,43": 50,
-      "35,44": 50,
-      "35,45": 50,
-      "35,46": 50,
-      "35,47": 50,
-      "35,48": 50,
-      "35,49": 47,
+      "35,33": 51,
+      "35,34": 51,
+      "35,35": 51,
+      "35,36": 51,
+      "35,37": 51,
+      "35,38": 52,
+      "35,39": 51,
+      "35,41": 51,
+      "35,42": 51,
+      "35,43": 51,
+      "35,44": 51,
+      "35,45": 51,
+      "35,46": 51,
+      "35,47": 51,
+      "35,48": 51,
+      "35,49": 48,
       "35,50": 10,
       "35,51": 10,
-      "35,52": 47,
-      "35,53": 47,
-      "35,54": 47,
-      "35,55": 47,
+      "35,52": 48,
+      "35,53": 48,
+      "35,54": 48,
+      "35,55": 48,
       "35,56": 0,
       "35,57": 0,
       "35,58": 0,
       "36,0": 0,
       "36,1": 0,
-      "36,2": 55,
-      "36,3": 56,
-      "36,4": 56,
-      "36,5": 56,
-      "36,6": 56,
-      "36,7": 56,
-      "36,8": 56,
-      "36,9": 56,
-      "36,10": 56,
-      "36,11": 56,
-      "36,12": 56,
-      "36,13": 56,
-      "36,14": 56,
-      "36,15": 56,
-      "36,16": 56,
-      "36,17": 56,
-      "36,18": 57,
+      "36,2": 56,
+      "36,3": 57,
+      "36,4": 57,
+      "36,5": 57,
+      "36,6": 57,
+      "36,7": 57,
+      "36,8": 57,
+      "36,9": 57,
+      "36,10": 57,
+      "36,11": 57,
+      "36,12": 57,
+      "36,13": 57,
+      "36,14": 57,
+      "36,15": 57,
+      "36,16": 57,
+      "36,17": 57,
+      "36,18": 58,
       "36,19": 0,
       "36,20": 0,
       "36,21": 0,
-      "36,22": 47,
-      "36,23": 47,
-      "36,24": 47,
-      "36,25": 47,
-      "36,26": 47,
-      "36,27": 47,
-      "36,28": 47,
-      "36,29": 47,
-      "36,30": 47,
-      "36,31": 47,
-      "36,32": 47,
-      "36,33": 47,
-      "36,34": 47,
-      "36,35": 47,
-      "36,36": 47,
-      "36,37": 47,
-      "36,38": 47,
-      "36,39": 47,
-      "36,40": 46,
-      "36,41": 47,
-      "36,42": 47,
-      "36,43": 47,
-      "36,44": 47,
-      "36,45": 47,
-      "36,46": 47,
-      "36,47": 47,
-      "36,48": 47,
-      "36,49": 47,
+      "36,22": 48,
+      "36,23": 48,
+      "36,24": 48,
+      "36,25": 48,
+      "36,26": 48,
+      "36,27": 48,
+      "36,28": 48,
+      "36,29": 48,
+      "36,30": 48,
+      "36,31": 48,
+      "36,32": 48,
+      "36,33": 48,
+      "36,34": 48,
+      "36,35": 48,
+      "36,36": 48,
+      "36,37": 48,
+      "36,38": 48,
+      "36,39": 48,
+      "36,40": 47,
+      "36,41": 48,
+      "36,42": 48,
+      "36,43": 48,
+      "36,44": 48,
+      "36,45": 48,
+      "36,46": 48,
+      "36,47": 48,
+      "36,48": 48,
+      "36,49": 48,
       "36,50": 10,
       "36,51": 10,
-      "36,52": 47,
-      "36,53": 47,
-      "36,54": 47,
-      "36,55": 47,
+      "36,52": 48,
+      "36,53": 48,
+      "36,54": 48,
+      "36,55": 48,
       "36,56": 0,
       "36,57": 0,
       "36,58": 0,
@@ -2996,98 +2992,98 @@
       "37,19": 0,
       "37,20": 0,
       "37,21": 0,
-      "37,22": 47,
-      "37,23": 47,
-      "37,24": 47,
-      "37,25": 47,
-      "37,26": 47,
-      "37,27": 47,
-      "37,28": 47,
-      "37,29": 47,
-      "37,30": 47,
-      "37,31": 47,
-      "37,32": 47,
-      "37,33": 47,
-      "37,34": 47,
-      "37,35": 47,
-      "37,36": 47,
-      "37,37": 47,
-      "37,38": 47,
-      "37,39": 47,
-      "37,40": 46,
-      "37,41": 47,
-      "37,42": 47,
-      "37,43": 47,
-      "37,44": 47,
-      "37,45": 47,
-      "37,46": 47,
-      "37,47": 47,
-      "37,48": 47,
-      "37,49": 47,
-      "37,50": 47,
-      "37,51": 47,
-      "37,52": 47,
-      "37,53": 47,
-      "37,54": 47,
-      "37,55": 47,
+      "37,22": 48,
+      "37,23": 48,
+      "37,24": 48,
+      "37,25": 48,
+      "37,26": 48,
+      "37,27": 48,
+      "37,28": 48,
+      "37,29": 48,
+      "37,30": 48,
+      "37,31": 48,
+      "37,32": 48,
+      "37,33": 48,
+      "37,34": 48,
+      "37,35": 48,
+      "37,36": 48,
+      "37,37": 48,
+      "37,38": 48,
+      "37,39": 48,
+      "37,40": 47,
+      "37,41": 48,
+      "37,42": 48,
+      "37,43": 48,
+      "37,44": 48,
+      "37,45": 48,
+      "37,46": 48,
+      "37,47": 48,
+      "37,48": 48,
+      "37,49": 48,
+      "37,50": 48,
+      "37,51": 48,
+      "37,52": 48,
+      "37,53": 48,
+      "37,54": 48,
+      "37,55": 48,
       "37,56": 0,
       "37,57": 0,
       "37,58": 0
     },
     "ColStyles": {
-      "0": 58,
-      "1": 58,
-      "2": 58,
-      "3": 58,
-      "4": 58,
-      "5": 58,
-      "6": 58,
-      "7": 58,
-      "8": 58,
-      "9": 58,
-      "10": 58,
-      "11": 58,
-      "12": 58,
-      "13": 58,
-      "14": 58,
-      "15": 58,
-      "16": 58,
-      "17": 58,
-      "18": 58,
-      "19": 58,
-      "20": 58,
-      "21": 58,
-      "22": 58,
-      "23": 58,
-      "24": 58,
-      "25": 58,
-      "26": 58,
-      "27": 58,
-      "28": 58,
-      "29": 58,
-      "30": 58,
-      "31": 58,
-      "32": 58,
-      "33": 58,
-      "34": 58,
-      "35": 58,
-      "36": 58,
-      "37": 58,
-      "38": 58,
-      "39": 58,
-      "40": 58,
-      "41": 58,
-      "42": 58,
-      "43": 58,
-      "44": 58,
-      "45": 58,
-      "46": 58,
-      "47": 58,
-      "48": 58,
-      "49": 58,
-      "50": 58,
-      "51": 58,
-      "52": 58
+      "0": 59,
+      "1": 59,
+      "2": 59,
+      "3": 59,
+      "4": 59,
+      "5": 59,
+      "6": 59,
+      "7": 59,
+      "8": 59,
+      "9": 59,
+      "10": 59,
+      "11": 59,
+      "12": 59,
+      "13": 59,
+      "14": 59,
+      "15": 59,
+      "16": 59,
+      "17": 59,
+      "18": 59,
+      "19": 59,
+      "20": 59,
+      "21": 59,
+      "22": 59,
+      "23": 59,
+      "24": 59,
+      "25": 59,
+      "26": 59,
+      "27": 59,
+      "28": 59,
+      "29": 59,
+      "30": 59,
+      "31": 59,
+      "32": 59,
+      "33": 59,
+      "34": 59,
+      "35": 59,
+      "36": 59,
+      "37": 59,
+      "38": 59,
+      "39": 59,
+      "40": 59,
+      "41": 59,
+      "42": 59,
+      "43": 59,
+      "44": 59,
+      "45": 59,
+      "46": 59,
+      "47": 59,
+      "48": 59,
+      "49": 59,
+      "50": 59,
+      "51": 59,
+      "52": 59
     },
     "SheetStyle": {
       "FontFamily": 11
@@ -3118,15 +3114,16 @@
     "22,32,1,4",
     "23,22,10,27",
     "24,53,2,1",
+    "22,36,1,4",
+    "22,42,1,7",
     "4,2,1,6",
     "4,8,1,6",
     "4,14,1,5",
-    "22,36,1,4",
-    "22,42,1,7",
     "21,22,1,10",
     "21,32,1,4",
     "21,36,1,4",
-    "21,42,1,7"
+    "21,42,1,7",
+    "27,53,2,1"
   ],
   "BackgroundPictures": [
     {
@@ -3154,7 +3151,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "if(Forguncy.Page.getListView(\"表格2\").getRowCount() > 0){\r\n  Forguncy.Page.getListView(\"表格2\").selectRow(0);\r\n}",
-        "ID": "62f721f4572542e5984deec49f35ffa2"
+        "ID": "80d5d0f6b8f8446b82d689dea5cc20ae"
       }
     ],
     "AuthorizeInfo": {
@@ -3171,5 +3168,19 @@
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
-  }
+  },
+  "CustomNames": [
+    {
+      "Name": "开药状态",
+      "Formula": "医生问诊页面!$BB$23"
+    },
+    {
+      "Name": "检查状态",
+      "Formula": "医生问诊页面!$BB$25"
+    },
+    {
+      "Name": "门诊是否完成",
+      "Formula": "医生问诊页面!$BB$28"
+    }
+  ]
 }
