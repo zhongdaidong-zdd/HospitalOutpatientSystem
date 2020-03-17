@@ -276,7 +276,6 @@
     "22,22": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
-        "SelectOnly": false,
         "ValidateItem": true,
         "IsBounding": true,
         "Items": [
