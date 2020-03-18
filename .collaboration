@@ -170,7 +170,16 @@
   },
   {
     "ModuleName": "缴费历史",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T14:41:05.0129474+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\缴费\\缴费历史.json"
+    ]
   },
   {
     "ModuleName": "缴费历史详情",
