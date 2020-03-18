@@ -153,7 +153,16 @@
   },
   {
     "ModuleName": "药品进货",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T16:49:04.3189292+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品信息\\药品进货.json"
+    ]
   },
   {
     "ModuleName": "Pages\\药房\\药品出药_检查科出结果",
