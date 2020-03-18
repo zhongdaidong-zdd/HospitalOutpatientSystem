@@ -133,7 +133,16 @@
   },
   {
     "ModuleName": "缴费页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T18:36:26.2915193+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\缴费\\缴费页面.json"
+    ]
   },
   {
     "ModuleName": "Pages\\药房",
