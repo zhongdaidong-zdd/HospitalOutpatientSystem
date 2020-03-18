@@ -133,16 +133,7 @@
   },
   {
     "ModuleName": "缴费页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T18:33:37.9377204+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\药房",
@@ -194,18 +185,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T18:32:20.1062974+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
