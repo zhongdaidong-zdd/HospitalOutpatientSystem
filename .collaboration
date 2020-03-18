@@ -169,16 +169,7 @@
   },
   {
     "ModuleName": "药房检查科结束项目",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T16:54:52.8063921+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房检查科结束项目.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "首页",
