@@ -58,6 +58,7 @@
             "Value": "挂号处",
             "Text": "挂号处",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "挂号组",
               "管理员"
@@ -66,7 +67,7 @@
               {
                 "Value": "挂号",
                 "Text": "挂号",
-                "IconPath": "Application/002_add_2.svg",
+                "IconPath": "Application/005_add_5.svg",
                 "SelectedIconColor": "Background 1",
                 "IsOldMenuPath": false,
                 "CommandList": [
@@ -89,6 +90,7 @@
             "Value": "医生处",
             "Text": "医生处",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "医生组",
               "管理员"
@@ -139,6 +141,7 @@
             "Value": "收费处",
             "Text": "收费处",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "收费组",
               "管理员"
@@ -188,6 +191,7 @@
             "Value": "药房处",
             "Text": "药房处",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "药品组",
               "管理员"
@@ -256,6 +260,7 @@
             "Value": "系统管理处",
             "Text": "系统管理处",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "管理员"
             ],
@@ -284,11 +289,12 @@
             "Value": "了解活字格...",
             "Text": "了解活字格...",
             "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "3c58be38dc2b4259a44985ec537f2cb8"
+                "ID": "d332eaca768343b68cd315caf97152c3"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
