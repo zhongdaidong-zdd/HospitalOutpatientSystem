@@ -74,12 +74,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "30413e31-5949-4a6b-88fd-3724bf1e4c5a"
+          "Id": "9adb1df8-3536-471d-a18a-44eb2c669e7a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "fee657fa-a8da-45f4-8ea8-00e07bf2261a"
+          "Id": "e0516524-997f-4216-98fc-c817d9e4c037"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -223,7 +223,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AY16"
             },
-            "Id": "f2dddf44-2316-46c4-ba2d-60922522a0ba"
+            "Id": "5d6f9c37-68a7-4fb0-ab60-cce709cc88b2"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -235,9 +235,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AG6"
             },
-            "Id": "3c3f22e9-7249-4538-8dd8-e055ce62fd06"
+            "Id": "111c5e2a-1e25-40cc-97ae-76d1653e2b31"
           },
-          "Id": "9e886998-a22f-4a62-a96b-decc0897fa44"
+          "Id": "269e755f-0474-4fb1-be56-ae7600fe8221"
         }
       },
       "DataValidationInfo": {
@@ -258,7 +258,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "0f187aeb-e8d1-4cf5-a89a-a49f504873b0"
+          "Id": "663524f1-f862-415a-920c-d90dc6ed2c5d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -445,6 +445,7 @@
           }
         ],
         "Text": "挂号",
+        "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style5"
       }
     },
@@ -475,12 +476,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "33964a71-25e7-4048-8777-8b7fe4c953d9"
+          "Id": "03b994f2-e0a8-45e6-8eae-41df48aa4a8d"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f62091cb-d204-4e8b-8441-a7ad3f896ab4"
+          "Id": "b9caa10f-432f-4e66-80db-746a3f742565"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -499,7 +500,7 @@
               "Order": 0
             }
           ],
-          "Id": "2bd32215-2e9b-476d-999e-18c450f79d61"
+          "Id": "04a8da2b-a12a-4fe4-a84e-77ed9baa4b94"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
