@@ -125,6 +125,9 @@
           }
         ],
         "ImagePath": "Registration.png"
+      },
+      "CellComment": {
+        "Comments": "Hover效果由css实现。"
       }
     },
     "1,14": {
@@ -215,12 +218,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=YEAR(TODAY())"
           },
-          "Id": "1c101738-1765-4bf4-837f-edcbac5e9bb7"
+          "Id": "8d4f0480-a986-4d39-ba0c-5a6755fa765a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "5fd7f8ff-cfee-4164-9291-645f4f4659b4"
+          "Id": "08f4ffe1-b9aa-4122-abde-d9e44f03043d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
