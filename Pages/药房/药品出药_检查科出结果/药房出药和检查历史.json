@@ -119,12 +119,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药房出药和检查历史!AF4"
           },
-          "Id": "76c363a8-50f4-453b-9874-5126cf1cb9a2"
+          "Id": "017e9e2f-e567-434b-9654-7508d9f74092"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "be959838-e30d-433e-a5ff-5e778eb2a0bd"
+          "Id": "dbb9a373-32c5-4e17-a303-917134801d47"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -143,7 +143,7 @@
               "Order": 0
             }
           ],
-          "Id": "01edfd45-cd1c-4db2-9501-59f332826491"
+          "Id": "46b6bf18-6018-4719-ae87-6c915c0ec401"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -2408,6 +2408,7 @@
     "3,2,2,9",
     "8,2,32,46",
     "3,46,2,2",
+    "3,31,2,15",
     "6,2,1,6",
     "6,8,1,2",
     "6,10,1,6",
@@ -2415,8 +2416,7 @@
     "6,23,1,5",
     "6,28,1,9",
     "6,37,1,6",
-    "6,43,1,5",
-    "3,31,2,15"
+    "6,43,1,5"
   ],
   "BackgroundPictures": [
     {
