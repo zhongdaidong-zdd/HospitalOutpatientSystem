@@ -96,7 +96,7 @@
               {
                 "Source": "新增",
                 "TargetCell": {
-                  "SerializeProperty": "=药品信息!A5"
+                  "SerializeProperty": "=药品信息!A1"
                 }
               }
             ],
@@ -128,12 +128,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药品信息管理!AJ2"
           },
-          "Id": "65384afe-101c-4827-9266-5f4212ae0f31"
+          "Id": "000f7f23-bcb2-48e3-a47a-d00d2ecbeb9d"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "86a54e8a-315f-401f-beac-49c62a1a1824"
+          "Id": "46a10928-f615-4119-8222-87b4d9c3811a"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -145,7 +145,7 @@
               "Order": 0
             }
           ],
-          "Id": "d353b94b-4c92-4c46-b6bc-ec45d8569ae7"
+          "Id": "349152bb-f4a4-4fe2-8826-8368b2115822"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -200,7 +200,7 @@
               {
                 "Source": "编辑",
                 "TargetCell": {
-                  "SerializeProperty": "=药品信息!A5"
+                  "SerializeProperty": "=药品信息!A1"
                 }
               }
             ],
@@ -230,7 +230,7 @@
                     ]
                   },
                   "value": "检查项目",
-                  "Id": "ae05f180-0efc-469c-aeb5-69ef12501445"
+                  "Id": "d296a1a8-02a1-44e1-9cc4-8657e33e80f1"
                 },
                 "CommandList": [
                   {
