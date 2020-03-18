@@ -85,29 +85,11 @@
   },
   {
     "ModuleName": "医生问诊历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:29:22.5361848+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:28:13.8570567+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊页面",
