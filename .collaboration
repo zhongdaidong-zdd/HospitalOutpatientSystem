@@ -150,7 +150,7 @@
       "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-18T16:13:21.9861048+08:00",
+    "LockDateTime": "2020-03-18T16:21:06.1451383+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\药房\\药品信息\\药品信息.json"
@@ -158,7 +158,16 @@
   },
   {
     "ModuleName": "药品信息管理",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T16:21:06.1461381+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品信息\\药品信息管理.json"
+    ]
   },
   {
     "ModuleName": "药品进货",
