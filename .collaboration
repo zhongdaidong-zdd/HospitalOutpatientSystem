@@ -85,42 +85,15 @@
   },
   {
     "ModuleName": "医生问诊历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:34:07.6822554+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:38:57.4521587+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:39:07.0333569+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\挂号",
@@ -128,16 +101,7 @@
   },
   {
     "ModuleName": "挂号",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:40:15.754742+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\挂号\\挂号.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\系统配置",
@@ -145,29 +109,11 @@
   },
   {
     "ModuleName": "科室列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:39:31.422689+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\系统配置\\科室列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "科室列表编辑",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:43:26.1855763+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\系统配置\\科室列表编辑.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "管理员首页",
@@ -179,42 +125,15 @@
   },
   {
     "ModuleName": "缴费历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:41:05.0129474+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "缴费历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:45:55.6487035+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "缴费页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:45:35.6622919+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\药房",
@@ -230,16 +149,7 @@
   },
   {
     "ModuleName": "药品信息管理",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:46:36.9373974+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品信息\\药品信息管理.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药品进货",
@@ -251,42 +161,15 @@
   },
   {
     "ModuleName": "药房出药和检查历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:47:18.1079804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药房出药和检查历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:47:41.4223718+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药房检查科结束项目",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-18T14:48:20.6955613+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房检查科结束项目.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "首页",

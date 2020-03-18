@@ -74,12 +74,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "d151e395-2160-4d79-9685-b79379f4a968"
+          "Id": "30413e31-5949-4a6b-88fd-3724bf1e4c5a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "67e86f7c-8f0d-4966-847a-dba7576572a5"
+          "Id": "fee657fa-a8da-45f4-8ea8-00e07bf2261a"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -223,7 +223,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AY16"
             },
-            "Id": "be9c0cba-0689-4ed4-99a0-cbafdbb1eddb"
+            "Id": "f2dddf44-2316-46c4-ba2d-60922522a0ba"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -235,9 +235,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AG6"
             },
-            "Id": "32221bda-6f0b-457b-822d-e18a7712d026"
+            "Id": "3c3f22e9-7249-4538-8dd8-e055ce62fd06"
           },
-          "Id": "2b60a31f-3a4b-42bb-8626-df944e06e6d2"
+          "Id": "9e886998-a22f-4a62-a96b-decc0897fa44"
         }
       },
       "DataValidationInfo": {
@@ -258,7 +258,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "957f71d1-d1e0-4f55-a69d-9097379a2809"
+          "Id": "0f187aeb-e8d1-4cf5-a89a-a49f504873b0"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -462,8 +462,6 @@
         "ColumnIndex": 2,
         "ColumnCount": 46,
         "RowCount": 20,
-        "OddRowBackcolor": "Background 1 -5",
-        "EvenRowBackcolor": "Background 1 -5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格3",
@@ -477,12 +475,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "4b4c879a-8d65-47f6-8033-bb884540cbe8"
+          "Id": "33964a71-25e7-4048-8777-8b7fe4c953d9"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "bc33514b-189d-4120-9674-199ac2a4e6b6"
+          "Id": "f62091cb-d204-4e8b-8441-a7ad3f896ab4"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -501,7 +499,7 @@
               "Order": 0
             }
           ],
-          "Id": "a946198c-50e6-4002-9383-23b4f0d6009c"
+          "Id": "2bd32215-2e9b-476d-999e-18c450f79d61"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

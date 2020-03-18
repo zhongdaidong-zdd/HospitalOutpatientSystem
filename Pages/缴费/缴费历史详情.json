@@ -43,8 +43,6 @@
         "ColumnIndex": 3,
         "ColumnCount": 44,
         "RowCount": 12,
-        "OddRowBackcolor": "Background 1",
-        "EvenRowBackcolor": "Background 1 -5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格2",
@@ -57,7 +55,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "742304dd-ec4d-4024-9faa-add0ad090dc0"
+          "Id": "5d468044-8f2f-4dae-b30a-99da45b6b289"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

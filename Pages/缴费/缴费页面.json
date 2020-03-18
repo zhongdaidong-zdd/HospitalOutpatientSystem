@@ -93,7 +93,7 @@
             "ColumnName": "门诊挂号状态"
           },
           "Value": "待缴费",
-          "Id": "849f45b8-bc53-4339-9976-9ef4c8057164"
+          "Id": "e8fc6955-a819-4bde-a4d3-22c7658ca324"
         },
         "DropDownSubItems": [
           {
@@ -171,7 +171,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e6cdfe73-e488-4aea-87b8-398b7448fcb0"
+          "Id": "77d5e84e-b52d-40d2-9595-e400f25c125b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -187,8 +187,6 @@
         "ColumnIndex": 3,
         "ColumnCount": 45,
         "RowCount": 12,
-        "OddRowBackcolor": "Background 1 -5",
-        "EvenRowBackcolor": "Background 1 -5",
         "SelectionMode": 1,
         "ColumnOperation": 1,
         "ShowGridLine": true,
@@ -212,7 +210,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=缴费页面!BE14"
               },
-              "Id": "81c22526-539f-4115-a34a-3b3c8a095d3e"
+              "Id": "79d8345c-225e-4c01-aa2b-6ffacafa2158"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -221,9 +219,9 @@
                 "ColumnName": "项目状态"
               },
               "Value": "进行中",
-              "Id": "138943f7-a84d-4d63-bbfd-3dc86a8431a4"
+              "Id": "3b074d0d-9472-4b62-a1b8-8c4c156ebb77"
             },
-            "Id": "9c0ce232-3036-445f-939c-baacfd75e992"
+            "Id": "63debef2-fb41-4612-b72c-4deb59219e62"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -237,14 +235,14 @@
               }
             },
             "Value": "待缴费",
-            "Id": "e5168d6d-3d37-4dad-ba1a-25a6dbb8d6b9"
+            "Id": "26bc90ba-dabd-4aea-a16d-064a77a72587"
           },
-          "Id": "486acbbc-872e-46d9-80d7-06fefbe71a30"
+          "Id": "81f3d31f-180d-42b0-9795-973a66093c94"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "3d0e3e52-3b20-4a82-baaf-3b7e72147e52"
+          "Id": "969aa1ee-df5b-4ec7-a011-f1032d6eab0b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -387,7 +385,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "=缴费页面!AK17"
                   },
-                  "Id": "ff63261b-ef0b-48c7-9338-bef2b7167f7e"
+                  "Id": "6021d821-2d46-41a4-9979-04a08ccc3b68"
                 },
                 "UpdateValues": [
                   {
@@ -417,7 +415,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=缴费页面!O5"
               },
-              "Id": "45925fe9-db83-48f4-b948-85a3215dc4aa"
+              "Id": "362bd82a-4d85-4027-a0e9-efb5b3bdfe30"
             },
             "UpdateValues": [
               {

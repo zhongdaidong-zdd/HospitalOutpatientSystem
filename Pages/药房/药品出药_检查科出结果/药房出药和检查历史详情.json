@@ -43,8 +43,6 @@
         "ColumnIndex": 3,
         "ColumnCount": 46,
         "RowCount": 12,
-        "OddRowBackcolor": "Background 1 -5",
-        "EvenRowBackcolor": "Background 1 -5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格2",
@@ -61,12 +59,12 @@
             "ColumnName": "项目状态"
           },
           "Value": "已完成",
-          "Id": "90a89355-a397-4634-a5e2-c15d810efffd"
+          "Id": "ba8abe86-ce69-4d69-b3e8-82e22df4a460"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2a3350a5-73c1-481c-8a95-dff6615fce24"
+          "Id": "f7819616-875b-450a-ab2a-8205d2b3a22a"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

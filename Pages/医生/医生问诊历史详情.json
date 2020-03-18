@@ -83,8 +83,6 @@
         "ColumnIndex": 3,
         "ColumnCount": 27,
         "RowCount": 12,
-        "OddRowBackcolor": "Background 1 -5",
-        "EvenRowBackcolor": "Background 1 -5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格2",
@@ -97,7 +95,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f7e1df2a-2a85-43cd-8da3-4b0f4a62eec7"
+          "Id": "65b3ce9b-8bad-4d19-b247-dd9142408277"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -141,7 +139,7 @@
             "ColumnName": "药品数量"
           },
           "Value": "0",
-          "Id": "48ea8a86-7131-4c4e-91ba-d97d0092fefd"
+          "Id": "09b2cddf-93de-4d7f-a928-56e342a1ea12"
         }
       },
       "BindingInfo": {
@@ -1623,22 +1621,22 @@
   "Spans": [
     "4,3,1,10",
     "18,3,1,4",
-    "21,3,1,10",
-    "21,13,1,4",
     "1,6,1,6",
-    "21,22,1,8",
-    "21,17,1,5",
     "2,16,1,6",
     "2,6,1,7",
     "3,16,1,6",
     "3,6,1,7",
     "3,25,1,5",
+    "5,3,12,27",
+    "21,3,1,10",
+    "21,13,1,4",
+    "21,17,1,5",
+    "21,22,1,8",
     "22,3,10,27",
     "20,3,1,10",
     "20,13,1,4",
     "20,17,1,5",
-    "20,22,1,8",
-    "5,3,12,27"
+    "20,22,1,8"
   ],
   "BackgroundPictures": [
     {
