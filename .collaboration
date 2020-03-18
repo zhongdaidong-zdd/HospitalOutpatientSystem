@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "药品信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T16:52:28.2612524+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品信息\\药品信息.json"
+    ]
   },
   {
     "ModuleName": "药品信息管理",
