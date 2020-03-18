@@ -83,6 +83,17 @@
   ],
   "Forguncy.TextCellTypeStyleTemplateSupportAttribute": [
     {
+      "Key": "样式2",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    },
+    {
       "Key": "样式1",
       "Category": "_RS_Custom",
       "Styles": {
