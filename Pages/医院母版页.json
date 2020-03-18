@@ -268,7 +268,7 @@
               {
                 "Value": "科室管理",
                 "Text": "科室管理",
-                "IconPath": "Application/053_settings_4.svg",
+                "IconPath": "Application/115_hyperlink_2.svg",
                 "SelectedIconColor": "Background 1",
                 "IsOldMenuPath": false,
                 "CommandList": [
@@ -294,7 +294,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "d332eaca768343b68cd315caf97152c3"
+                "ID": "b79c95b4bdf74853af2f2b45aac75d75"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
