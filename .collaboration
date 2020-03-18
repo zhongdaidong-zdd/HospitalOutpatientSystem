@@ -161,7 +161,16 @@
   },
   {
     "ModuleName": "药房出药和检查历史",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "XA-DD3-DAVIDZHO\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-18T17:09:08.6691884+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史.json"
+    ]
   },
   {
     "ModuleName": "药房出药和检查历史详情",
