@@ -94,6 +94,13 @@
         "SpinButtonvisibility": 0,
         "TemplateKey": "样式1",
         "CellDefaultValue": 1
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 4,
+        "IgnoreBlank": false,
+        "FirstParamValue": "0",
+        "ErrorMessage": "请输入一个大于0的整数。"
       }
     },
     "13,9": {
@@ -201,7 +208,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药品进货!J2"
               },
-              "Id": "82db058c-ceb0-4103-b01c-fa913f2c13cc"
+              "Id": "64cfe14f-3791-4124-98b0-276517a6de82"
             },
             "UpdateValues": [
               {
