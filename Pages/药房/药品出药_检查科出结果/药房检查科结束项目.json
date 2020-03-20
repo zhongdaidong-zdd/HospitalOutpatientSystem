@@ -103,7 +103,7 @@
             "ColumnName": "门诊挂号状态"
           },
           "Value": "待出药",
-          "Id": "0ba8df36-f171-4b1a-81ce-84515509718a"
+          "Id": "b505b985-8177-4ab7-9ed0-78c9e66e7d77"
         },
         "ItemsSort": {
           "OrderByColumns": [
@@ -122,7 +122,7 @@
               "Order": 1
             }
           ],
-          "Id": "140eff40-02fc-4c90-9760-da2eb47753cd"
+          "Id": "1ec748e6-d18f-41e9-a809-ed233f15460f"
         },
         "DropDownSubItems": [
           {
@@ -227,7 +227,7 @@
                 "ColumnName": "项目状态"
               },
               "Value": "进行中",
-              "Id": "0e6e47ca-c5c8-4868-b3df-38d6b7fa3ac5"
+              "Id": "5494855a-9aa0-4898-91e2-4c3c8da35011"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -244,9 +244,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药房检查科结束项目!BF17"
               },
-              "Id": "adab4491-b18d-4bb6-88af-6551e51fdd5d"
+              "Id": "c63750c2-7821-45e7-85d8-e7941058b86a"
             },
-            "Id": "63902d94-1f55-4ad7-9d20-704993178ccb"
+            "Id": "f1fd4af3-1901-4436-b11d-95fb2a0e4827"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -260,14 +260,14 @@
               }
             },
             "Value": "待出药",
-            "Id": "426b2a82-febc-4952-a978-69db4450dcd9"
+            "Id": "453ce732-30d1-4964-a811-9f4fafbea626"
           },
-          "Id": "10a1c09f-f8d1-4cf4-9082-57f901b5be20"
+          "Id": "140e309c-9594-459f-b54e-c5fd7b5267f9"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c368398d-fe34-4838-bf67-9f71fc697853"
+          "Id": "1b0ff473-0706-4dd5-9ecb-4ca5e8fb5952"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -364,6 +364,17 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+            "PropertyItemsList": [
+              {
+                "Cell": {
+                  "SerializeProperty": "=药房检查科结束项目!库存状态"
+                },
+                "Value": "1"
+              }
+            ]
+          },
+          {
             "$type": "Forguncy.Model.LoopCommand, Forguncy",
             "LoopInfo": {
               "$type": "Forguncy.Model.ListviewKindLoopInfo, Forguncy",
@@ -372,116 +383,61 @@
             },
             "CommandList": [
               {
-                "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                "TableName": "药品变动表",
-                "UpdateType": "add",
-                "ShowConfirm": false,
-                "ConfirmText": "您确定添加这条记录?",
-                "UpdateValues": [
-                  {
-                    "ColumnName": "药品字典表ID",
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                      "SerializeProperty": "=药房检查科结束项目!G17"
-                    }
-                  },
-                  {
-                    "ColumnName": "数量",
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                      "SerializeProperty": "=药房检查科结束项目!Z17"
-                    }
-                  },
-                  {
-                    "ColumnName": "日期",
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                      "SerializeProperty": "=TODAY()"
-                    }
-                  },
-                  {
-                    "ColumnName": "时间",
-                    "Value": {
-                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                      "SerializeProperty": "=NOW()"
-                    }
-                  },
-                  {
-                    "ColumnName": "种类",
-                    "Value": "病人购买药品"
-                  }
-                ]
-              },
-              {
                 "$type": "Forguncy.Model.ConditionCommand, Forguncy",
                 "ConditionAndCommandPairList": [
                   {
                     "Condition": {
-                      "$type": "Forguncy.Model.IfCondition, Forguncy",
-                      "param": {
-                        "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                        "cellLocations": [
-                          {
-                            "SerializeProperty": "=药房检查科结束项目!AO17"
-                          }
-                        ]
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "Forguncy.Model.IfCondition, Forguncy",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=药房检查科结束项目!AO17"
+                            }
+                          ]
+                        },
+                        "value": "药品",
+                        "Id": "3cea966c-1bab-4c10-a47a-a92932250669"
                       },
-                      "value": "药品",
-                      "Id": "29ab0e9b-9ccc-4ef9-b25c-af1458520ca9"
+                      "Condition2": {
+                        "$type": "Forguncy.Model.IfCondition, Forguncy",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=药房检查科结束项目!Z17"
+                            }
+                          ]
+                        },
+                        "value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=药房检查科结束项目!AN17"
+                        },
+                        "compareType": 2,
+                        "Id": "b157c29f-2043-4b67-99b7-bf0cd3c1a480"
+                      },
+                      "Id": "47c024b8-3874-4e05-9aa0-b1ea6e8871e0"
                     },
                     "CommandList": [
                       {
-                        "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                        "TableName": "项目字典表",
-                        "ShowConfirm": false,
-                        "ConfirmText": "您确定要更新这行记录吗？",
-                        "RowsToUpdate": 1,
-                        "RowsToUpdateCondition": {
-                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                          "ColumnBindingInfo": {
-                            "TableName": "项目字典表",
-                            "ColumnName": "ID"
-                          },
-                          "Value": {
-                            "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                            "SerializeProperty": "=药房检查科结束项目!G17"
-                          },
-                          "Id": "2b5f3bbd-a8ee-4dc5-90db-1caf7fcb395a"
-                        },
-                        "UpdateValues": [
+                        "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                        "PropertyItemsList": [
                           {
-                            "ColumnName": "药品数量",
-                            "Value": {
-                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                              "SerializeProperty": "=药房检查科结束项目!AN17-药房检查科结束项目!Z17"
-                            }
+                            "Cell": {
+                              "SerializeProperty": "=药房检查科结束项目!库存状态"
+                            },
+                            "Value": "0"
                           }
                         ]
                       }
                     ],
-                    "ID": "6b9250da-37ee-4931-a3be-296d5496c257"
+                    "ID": "656ee896-7236-4add-8ee7-af254a30e091"
                   }
                 ]
               }
             ]
-          },
-          {
-            "$type": "Forguncy.Model.UpdateListviewCommand, Forguncy",
-            "ListviewName": "表格1",
-            "UpdateValues": [
-              {
-                "Column": {
-                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                  "SerializeProperty": "=药房检查科结束项目!AQ17"
-                },
-                "Value": "已完成"
-              }
-            ]
-          },
-          {
-            "$type": "Forguncy.Model.UpdateListviewCommand, Forguncy",
-            "UpdateType": 3,
-            "ListviewName": "表格1"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -493,14 +449,143 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=药房检查科结束项目!BF29"
+                        "SerializeProperty": "=药房检查科结束项目!库存状态"
                       }
                     ]
                   },
-                  "value": "true",
-                  "Id": "e0eca923-d3ce-4e1f-9f46-de43db142e91"
+                  "value": "0",
+                  "Id": "e0e656bb-33ac-4400-990e-324cefba6812"
                 },
                 "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                    "MessageFormula": "除药失败，药品库存不足。"
+                  }
+                ],
+                "ID": "0640e23a-3afa-4fd8-adf8-bfecd03756b8"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.LoopCommand, Forguncy",
+                    "LoopInfo": {
+                      "$type": "Forguncy.Model.ListviewKindLoopInfo, Forguncy",
+                      "ListviewName": "表格1",
+                      "ListViewLoopMode": 1
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                        "TableName": "药品变动表",
+                        "UpdateType": "add",
+                        "ShowConfirm": false,
+                        "ConfirmText": "您确定添加这条记录?",
+                        "UpdateValues": [
+                          {
+                            "ColumnName": "药品字典表ID",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                              "SerializeProperty": "=药房检查科结束项目!G17"
+                            }
+                          },
+                          {
+                            "ColumnName": "数量",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                              "SerializeProperty": "=药房检查科结束项目!Z17"
+                            }
+                          },
+                          {
+                            "ColumnName": "日期",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                              "SerializeProperty": "=TODAY()"
+                            }
+                          },
+                          {
+                            "ColumnName": "时间",
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                              "SerializeProperty": "=NOW()"
+                            }
+                          },
+                          {
+                            "ColumnName": "种类",
+                            "Value": "病人购买药品"
+                          }
+                        ]
+                      },
+                      {
+                        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+                        "ConditionAndCommandPairList": [
+                          {
+                            "Condition": {
+                              "$type": "Forguncy.Model.IfCondition, Forguncy",
+                              "param": {
+                                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                "cellLocations": [
+                                  {
+                                    "SerializeProperty": "=药房检查科结束项目!AO17"
+                                  }
+                                ]
+                              },
+                              "value": "药品",
+                              "Id": "1353a056-eef0-4845-b0e5-2d5bf94936cc"
+                            },
+                            "CommandList": [
+                              {
+                                "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                                "TableName": "项目字典表",
+                                "ShowConfirm": false,
+                                "ConfirmText": "您确定要更新这行记录吗？",
+                                "RowsToUpdate": 1,
+                                "RowsToUpdateCondition": {
+                                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                  "ColumnBindingInfo": {
+                                    "TableName": "项目字典表",
+                                    "ColumnName": "ID"
+                                  },
+                                  "Value": {
+                                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                    "SerializeProperty": "=药房检查科结束项目!G17"
+                                  },
+                                  "Id": "05e4f17f-9929-4305-ac74-55191ff43295"
+                                },
+                                "UpdateValues": [
+                                  {
+                                    "ColumnName": "药品数量",
+                                    "Value": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                      "SerializeProperty": "=药房检查科结束项目!AN17-药房检查科结束项目!Z17"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "ID": "6b9250da-37ee-4931-a3be-296d5496c257"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, Forguncy",
+                    "ListviewName": "表格1",
+                    "UpdateValues": [
+                      {
+                        "Column": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=药房检查科结束项目!AQ17"
+                        },
+                        "Value": "已完成"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateListviewCommand, Forguncy",
+                    "UpdateType": 3,
+                    "ListviewName": "表格1"
+                  },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, Forguncy",
                     "ConditionAndCommandPairList": [
@@ -511,93 +596,116 @@
                             "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
                             "cellLocations": [
                               {
-                                "SerializeProperty": "=药房检查科结束项目!BF16"
+                                "SerializeProperty": "=药房检查科结束项目!BF29"
                               }
                             ]
                           },
-                          "value": "1",
-                          "Id": "4fadd2ce-c24a-45c4-94a0-0c6054632e60"
+                          "value": "true",
+                          "Id": "6a2607af-0bf5-496c-b58a-446cfbe2ad7c"
                         },
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "门诊挂号单表",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要更新这行记录吗？",
-                            "RowsToUpdate": 1,
-                            "RowsToUpdateCondition": {
-                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                              "ColumnBindingInfo": {
-                                "TableName": "门诊挂号单表",
-                                "ColumnName": "病历编号"
-                              },
-                              "Value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                "SerializeProperty": "=药房检查科结束项目!BF17"
-                              },
-                              "Id": "57121ae0-ede2-4c7e-9eef-2a1c064d6b9d"
-                            },
-                            "UpdateValues": [
+                            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+                            "ConditionAndCommandPairList": [
                               {
-                                "ColumnName": "门诊挂号状态",
-                                "Value": "已完成就诊"
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                                    "cellLocations": [
+                                      {
+                                        "SerializeProperty": "=药房检查科结束项目!BF16"
+                                      }
+                                    ]
+                                  },
+                                  "value": "1",
+                                  "Id": "c6b372c8-af04-4424-b86b-6520ff77d697"
+                                },
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                                    "TableName": "门诊挂号单表",
+                                    "ShowConfirm": false,
+                                    "ConfirmText": "您确定要更新这行记录吗？",
+                                    "RowsToUpdate": 1,
+                                    "RowsToUpdateCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "门诊挂号单表",
+                                        "ColumnName": "病历编号"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                        "SerializeProperty": "=药房检查科结束项目!BF17"
+                                      },
+                                      "Id": "b8cf7104-f2db-4355-b9b6-63413ad2e058"
+                                    },
+                                    "UpdateValues": [
+                                      {
+                                        "ColumnName": "门诊挂号状态",
+                                        "Value": "已完成就诊"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                                    "MessageFormula": "病人本次所有就诊已完成"
+                                  }
+                                ],
+                                "ID": "07f71b64-1827-46cf-88f8-70a080d23017"
+                              },
+                              {
+                                "CommandList": [
+                                  {
+                                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                                    "TableName": "门诊挂号单表",
+                                    "ShowConfirm": false,
+                                    "ConfirmText": "您确定要更新这行记录吗？",
+                                    "RowsToUpdate": 1,
+                                    "RowsToUpdateCondition": {
+                                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                                      "ColumnBindingInfo": {
+                                        "TableName": "门诊挂号单表",
+                                        "ColumnName": "病历编号"
+                                      },
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                        "SerializeProperty": "=药房检查科结束项目!BF17"
+                                      },
+                                      "Id": "17971f8b-253e-44b9-a453-be0b5834bdab"
+                                    },
+                                    "UpdateValues": [
+                                      {
+                                        "ColumnName": "门诊挂号状态",
+                                        "Value": "待就诊"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                                    "MessageFormula": "该病人所有项目已完成，请到医生处复诊"
+                                  }
+                                ],
+                                "ID": "fff11c63-79bc-42ca-a0a7-eb92233c9cf6"
                               }
                             ]
-                          },
-                          {
-                            "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                            "MessageFormula": "病人本次所有就诊已完成"
                           }
                         ],
-                        "ID": "07f71b64-1827-46cf-88f8-70a080d23017"
+                        "ID": "64fe72c1-a8a1-4d34-959f-68b74b7a0662"
                       },
                       {
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "门诊挂号单表",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要更新这行记录吗？",
-                            "RowsToUpdate": 1,
-                            "RowsToUpdateCondition": {
-                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                              "ColumnBindingInfo": {
-                                "TableName": "门诊挂号单表",
-                                "ColumnName": "病历编号"
-                              },
-                              "Value": {
-                                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                "SerializeProperty": "=药房检查科结束项目!BF17"
-                              },
-                              "Id": "34a776da-2d6a-4aaa-93d1-c2637932ae83"
-                            },
-                            "UpdateValues": [
-                              {
-                                "ColumnName": "门诊挂号状态",
-                                "Value": "待就诊"
-                              }
-                            ]
-                          },
-                          {
                             "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                            "MessageFormula": "该病人所有项目已完成，请到医生处复诊"
+                            "MessageFormula": "该病人还有剩余项目未完成，请让病人耐心等待"
                           }
                         ],
-                        "ID": "fff11c63-79bc-42ca-a0a7-eb92233c9cf6"
+                        "ID": "2adc6813-419e-4516-99c4-398f5f0a3899"
                       }
                     ]
                   }
                 ],
-                "ID": "64fe72c1-a8a1-4d34-959f-68b74b7a0662"
-              },
-              {
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                    "MessageFormula": "该病人还有剩余项目未完成，请让病人耐心等待"
-                  }
-                ],
-                "ID": "2adc6813-419e-4516-99c4-398f5f0a3899"
+                "ID": "d23d3493-5f4a-4c3d-bc65-94693b0047a2"
               }
             ]
           }
@@ -3572,7 +3680,8 @@
     "15,6,1,19",
     "15,25,1,6",
     "15,31,1,8",
-    "15,43,1,7"
+    "15,43,1,7",
+    "20,57,2,6"
   ],
   "BackgroundPictures": [
     {
@@ -3618,5 +3727,11 @@
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
-  }
+  },
+  "CustomNames": [
+    {
+      "Name": "库存状态",
+      "Formula": "药房检查科结束项目!$BF$21"
+    }
+  ]
 }
