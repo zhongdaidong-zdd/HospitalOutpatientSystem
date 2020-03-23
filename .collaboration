@@ -97,7 +97,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-23T17:46:24.1253995+08:00",
+    "LockDateTime": "2020-03-23T17:48:03.5162854+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\医生\\医生问诊历史.json"
@@ -110,7 +110,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-23T17:46:24.1263987+08:00",
+    "LockDateTime": "2020-03-23T17:48:03.5162854+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\医生\\医生问诊历史详情.json"
@@ -123,7 +123,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-23T17:46:24.1263987+08:00",
+    "LockDateTime": "2020-03-23T17:48:03.5172846+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\医生\\医生问诊页面.json"
@@ -254,13 +254,13 @@
     "ModuleType": 15
   },
   {
-    "ModuleName": "Pages\\a",
+    "ModuleName": "Pages\\CC",
     "State": 3,
     "LockedBy": {
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-23T17:46:24.1244+08:00",
+    "LockDateTime": "2020-03-23T17:48:03.5152862+08:00",
     "ModuleType": 6
   }
 ]
