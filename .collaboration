@@ -117,16 +117,7 @@
   },
   {
     "ModuleName": "管理员首页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-28T11:07:07.3341987+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\系统配置\\管理员首页.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\缴费",
@@ -214,18 +205,7 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-28T11:19:31.696528+08:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\ga.js",
-      "UserFile\\StyleSheet.css"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
