@@ -137,5 +137,22 @@
         }
       }
     }
+  ],
+  "Forguncy.ImageCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "样式1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "CONTAINER": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 40",
+            "BorderString": "2px solid Accent_2_0"
+          }
+        }
+      }
+    }
   ]
 }
