@@ -117,7 +117,16 @@
   },
   {
     "ModuleName": "管理员首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T12:00:22.2024929+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\系统配置\\管理员首页.json"
+    ]
   },
   {
     "ModuleName": "Pages\\缴费",
