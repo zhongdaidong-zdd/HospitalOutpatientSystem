@@ -101,7 +101,16 @@
   },
   {
     "ModuleName": "挂号",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-01T14:34:56.0336686+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\挂号\\挂号.json"
+    ]
   },
   {
     "ModuleName": "Pages\\系统配置",
