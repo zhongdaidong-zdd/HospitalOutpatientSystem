@@ -125,16 +125,7 @@
   },
   {
     "ModuleName": "缴费历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T15:15:42.7696619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "缴费历史详情",
@@ -170,16 +161,7 @@
   },
   {
     "ModuleName": "药房出药和检查历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T15:15:07.5946619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药房出药和检查历史详情",
