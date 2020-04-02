@@ -129,7 +129,16 @@
   },
   {
     "ModuleName": "缴费历史详情",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T13:38:17.9736619+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\缴费\\缴费历史详情.json"
+    ]
   },
   {
     "ModuleName": "缴费页面",
