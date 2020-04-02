@@ -93,7 +93,16 @@
   },
   {
     "ModuleName": "医生问诊页面",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T18:42:21.6836331+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\医生\\医生问诊页面.json"
+    ]
   },
   {
     "ModuleName": "Pages\\挂号",
