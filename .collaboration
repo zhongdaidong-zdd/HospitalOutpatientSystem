@@ -109,7 +109,16 @@
   },
   {
     "ModuleName": "科室列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T14:16:22.5586619+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\系统配置\\科室列表.json"
+    ]
   },
   {
     "ModuleName": "科室列表编辑",
