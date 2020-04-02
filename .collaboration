@@ -129,16 +129,7 @@
   },
   {
     "ModuleName": "缴费历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T13:38:17.9736619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\缴费\\缴费历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "缴费页面",
@@ -170,42 +161,15 @@
   },
   {
     "ModuleName": "药房出药和检查历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T12:14:24.6746619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药房出药和检查历史详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T13:32:37.5266619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房出药和检查历史详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药房检查科结束项目",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T11:26:39.7686619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品出药_检查科出结果\\药房检查科结束项目.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "首页",
