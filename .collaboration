@@ -85,16 +85,7 @@
   },
   {
     "ModuleName": "医生问诊历史",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T09:41:15.8026619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊历史.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "医生问诊历史详情",
@@ -102,16 +93,7 @@
   },
   {
     "ModuleName": "医生问诊页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-02T09:11:38.0066619+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\医生\\医生问诊页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\挂号",
