@@ -171,7 +171,16 @@
   },
   {
     "ModuleName": "药品进货",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T13:49:50.4756619+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品信息\\药品进货.json"
+    ]
   },
   {
     "ModuleName": "Pages\\药房\\药品出药_检查科出结果",
