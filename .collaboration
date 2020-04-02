@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "药品信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T13:49:37.7876619+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\药房\\药品信息\\药品信息.json"
+    ]
   },
   {
     "ModuleName": "药品信息管理",
