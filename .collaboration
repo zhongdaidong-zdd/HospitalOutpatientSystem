@@ -1,1 +1,231 @@
-[{"ModuleName":"Pages\\内建手机页面","ModuleType":6},{"ModuleName":"FGC_401页面_手机版","ModuleType":2},{"ModuleName":"FGC_修改密码_手机版","ModuleType":2},{"ModuleName":"FGC_修改用户信息_手机版","ModuleType":2},{"ModuleName":"FGC_忘记密码_手机版","ModuleType":2},{"ModuleName":"FGC_登录_手机版","ModuleType":2},{"ModuleName":"FGC_维护中_手机版","ModuleType":2},{"ModuleName":"FGC_邮件订阅_手机版","ModuleType":2},{"ModuleName":"FGC_重置密码_手机版","ModuleType":2},{"ModuleName":"FGC_重置密码发送邮件成功_手机版","ModuleType":2},{"ModuleName":"Pages\\内建页面","ModuleType":6},{"ModuleName":"FGC_401页面","ModuleType":1},{"ModuleName":"FGC_修改密码","ModuleType":1},{"ModuleName":"FGC_修改用户信息","ModuleType":1},{"ModuleName":"FGC_忘记密码","ModuleType":1},{"ModuleName":"FGC_登录","ModuleType":1},{"ModuleName":"FGC_维护中","ModuleType":1},{"ModuleName":"FGC_邮件订阅","ModuleType":1},{"ModuleName":"FGC_重置密码","ModuleType":1},{"ModuleName":"FGC_重置密码发送邮件成功","ModuleType":1},{"ModuleName":"Pages\\医生","ModuleType":6},{"ModuleName":"医生问诊历史","ModuleType":1},{"ModuleName":"医生问诊历史详情","ModuleType":1},{"ModuleName":"医生问诊页面","ModuleType":1},{"ModuleName":"Pages\\挂号","ModuleType":6},{"ModuleName":"挂号","ModuleType":1},{"ModuleName":"Pages\\系统配置","ModuleType":6},{"ModuleName":"科室列表","ModuleType":1},{"ModuleName":"科室列表编辑","ModuleType":1},{"ModuleName":"管理员首页","ModuleType":1},{"ModuleName":"Pages\\缴费","ModuleType":6},{"ModuleName":"缴费历史","ModuleType":1},{"ModuleName":"缴费历史详情","ModuleType":1},{"ModuleName":"缴费页面","ModuleType":1},{"ModuleName":"Pages\\药房","ModuleType":6},{"ModuleName":"Pages\\药房\\药品信息","ModuleType":6},{"ModuleName":"药品信息","ModuleType":1},{"ModuleName":"药品信息管理","ModuleType":1},{"ModuleName":"药品进货","ModuleType":1},{"ModuleName":"Pages\\药房\\药品出药_检查科出结果","ModuleType":6},{"ModuleName":"药房出药和检查历史","ModuleType":1},{"ModuleName":"药房出药和检查历史详情","ModuleType":1},{"ModuleName":"药房检查科结束项目","ModuleType":1},{"ModuleName":"首页","ModuleType":1},{"ModuleName":"FGC_母版页","ModuleType":3},{"ModuleName":"医院母版页","ModuleType":3},{"ModuleName":"3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab","ModuleType":7},{"ModuleName":"c0399537-e72c-407d-82a2-ce31c68456a2","ModuleType":8},{"ModuleName":"2ddfe471-dd9c-4782-a3b4-3b67f963a6cb","ModuleType":9},{"ModuleName":"39ae35f5-de28-40a9-be9f-ff8adef64027","ModuleType":10},{"ModuleName":"396e6eb8-d825-4457-85fe-f7367f51b11b","ModuleType":11},{"ModuleName":"70c30736-7f75-4535-8aaa-82f185d976bb","ModuleType":12},{"ModuleName":"a7048ae8-d3c8-4136-ae00-39002dbdc3d8","ModuleType":13},{"ModuleName":"01725a5e-d06d-454e-ba18-6b6c0e11ece4","ModuleType":14},{"ModuleName":"f136f31a-5285-4164-b8e6-6a822fdf27bd","ModuleType":15}]
+[
+  {
+    "ModuleName": "Pages\\内建手机页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages\\内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_登录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_重置密码发送邮件成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\医生",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "医生问诊历史",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "医生问诊历史详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "医生问诊页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\挂号",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "挂号",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\系统配置",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "科室列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "科室列表编辑",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "管理员首页",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\缴费",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "缴费历史",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "缴费历史详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "缴费页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\药房",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\药房\\药品信息",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "药品信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "药品信息管理",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "药品进货",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\药房\\药品出药_检查科出结果",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "药房出药和检查历史",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "药房出药和检查历史详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "药房检查科结束项目",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "首页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-02T16:49:22.3056124+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\首页.json"
+    ]
+  },
+  {
+    "ModuleName": "FGC_母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "医院母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
+    "ModuleType": 7
+  },
+  {
+    "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
+    "ModuleType": 8
+  },
+  {
+    "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
+    "ModuleType": 9
+  },
+  {
+    "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
+    "ModuleType": 10
+  },
+  {
+    "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
+    "ModuleType": 11
+  },
+  {
+    "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
+    "ModuleType": 12
+  },
+  {
+    "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
+    "ModuleType": 13
+  },
+  {
+    "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
+    "ModuleType": 14
+  },
+  {
+    "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
+    "ModuleType": 15
+  }
+]
