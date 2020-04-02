@@ -111,7 +111,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "195a824c-5bf7-4368-bd21-8dd0285fd5e9"
+          "Id": "db7668c4-7983-46d3-a227-6b79d213f79d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -155,7 +155,7 @@
             "ColumnName": "药品数量"
           },
           "Value": "0",
-          "Id": "df0de8f7-b3a3-4ea3-aa07-f3b164cfb225"
+          "Id": "163cc75e-7b05-4247-a4eb-bbe3205689b6"
         },
         "UIPermissions": [
           {
@@ -1763,12 +1763,12 @@
     "20,12,1,4",
     "20,16,1,5",
     "20,21,1,8",
+    "21,2,10,27",
+    "34,24,1,5",
     "19,2,1,10",
     "19,12,1,4",
     "19,16,1,5",
-    "19,21,1,8",
-    "21,2,10,27",
-    "34,24,1,5"
+    "19,21,1,8"
   ],
   "BackgroundPictures": [
     {

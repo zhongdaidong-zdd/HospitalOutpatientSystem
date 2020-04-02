@@ -310,7 +310,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "72fdf2737dcf40ce943ab81dd72d99a1"
+                "ID": "cd418310c44d43f79f4ba4b0b7025f42"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",

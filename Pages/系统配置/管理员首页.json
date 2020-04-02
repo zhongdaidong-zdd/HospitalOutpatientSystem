@@ -252,12 +252,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=2017"
           },
-          "Id": "f8047068-c10d-485c-b340-ddcb0cfd7468"
+          "Id": "2bdb9599-af61-4ae6-92b7-7310d1a034a3"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "93b0aad0-8b28-47e4-ade0-525a014100e4"
+          "Id": "6874640a-6f96-4b26-9324-203f944d06d6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -3170,6 +3170,7 @@
         "Text": "本年收入与支出",
         "StyleInfo": {
           "FontFamily": "微软雅黑",
+          "FontSize": 24.0,
           "FontStyle": "Normal",
           "FontWeight": "Bold"
         }

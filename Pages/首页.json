@@ -5,6 +5,11 @@
   "Cols": {
     "Count": 60
   },
+  "Values": {
+    "13,18": "注：为了向您更好地展示功能，此处相关表格查询条件年份设置为2017年。\r\n如果您需要使用此模板，可以将表格查询条件相关年份设置为当前年份。\r\n使用公式YEAR(TODAY())可获取当前年份。",
+    "19,33": "注：为了向您更好地展示功能，此处相关表格查询条件年份设置为2017年。",
+    "25,32": "搜 索 会 员"
+  },
   "StyleDatas": {
     "Styles": [
       {
@@ -25,6 +30,9 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
+      },
+      {
+        "Formatter": 4
       }
     ],
     "Types": {
@@ -32,7 +40,8 @@
         "宋体",
         "Normal",
         "General",
-        "Center"
+        "Center",
+        "[AUTO]General"
       ]
     },
     "CellStyles": {
@@ -59,7 +68,9 @@
       "5,18": 0,
       "5,19": 0,
       "5,20": 0,
-      "5,21": 0
+      "5,21": 0,
+      "13,18": 1,
+      "25,32": 1
     },
     "SheetStyle": {
       "FontFamily": 0
@@ -83,7 +94,7 @@
               },
               "value": "管理员",
               "compareType": 10,
-              "Id": "b41d11d5-c9cb-47b4-b16a-17b6845828c8"
+              "Id": "61543f79-7275-4bd9-abeb-57fea2338f08"
             },
             "CommandList": [
               {
@@ -106,7 +117,7 @@
               },
               "value": "挂号组",
               "compareType": 10,
-              "Id": "1933b548-6b44-47ec-9cea-9e2b6eecf262"
+              "Id": "997c6355-caa6-4205-bc09-43493539697e"
             },
             "CommandList": [
               {
@@ -129,7 +140,7 @@
               },
               "value": "医生组",
               "compareType": 10,
-              "Id": "3d43bbb0-da33-4073-80c7-16426b821ca5"
+              "Id": "f0b1a1a4-3000-49c8-a2d5-b68b970fde13"
             },
             "CommandList": [
               {
@@ -152,7 +163,7 @@
               },
               "value": "收费组",
               "compareType": 10,
-              "Id": "4584fc1d-3557-4695-a732-d597b7287690"
+              "Id": "55215cfc-0d21-4492-883e-098e32130d25"
             },
             "CommandList": [
               {
@@ -175,7 +186,7 @@
               },
               "value": "药品组",
               "compareType": 10,
-              "Id": "a08e87c1-00df-482e-b60f-db3ee66662e3"
+              "Id": "010f868b-eff5-4831-a6f6-761116eb26d5"
             },
             "CommandList": [
               {

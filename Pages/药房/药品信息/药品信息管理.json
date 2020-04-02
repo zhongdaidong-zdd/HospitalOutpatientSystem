@@ -168,12 +168,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药品信息管理!AC3"
           },
-          "Id": "3d35bdbc-5496-48f3-bc69-eb96f4378399"
+          "Id": "5a606db8-184f-4793-bdb3-9ec4f49728b3"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e21388fd-b901-4b7b-b788-813c4c8d7e25"
+          "Id": "7217bc05-2528-4a1e-a695-9123cd130910"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -185,7 +185,7 @@
               "Order": 0
             }
           ],
-          "Id": "c9b7d20a-1ef2-4b3e-b07a-e306e4624c7d"
+          "Id": "e476458a-0b90-429a-abef-7c255bcb8ae7"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -284,7 +284,7 @@
                     ]
                   },
                   "value": "检查项目",
-                  "Id": "ba49fc8b-6477-496e-bcd2-6f401c5c6c89"
+                  "Id": "3dacc9d7-a50f-45f6-b617-df5991bb5f75"
                 },
                 "CommandList": [
                   {
@@ -2584,16 +2584,16 @@
     "5,19,1,4",
     "5,23,1,5",
     "5,28,1,7",
+    "5,35,1,5",
     "4,1,1,10",
     "4,11,1,8",
     "4,19,1,4",
     "4,23,1,5",
     "4,28,1,7",
+    "4,35,1,5",
     "4,40,1,3",
     "4,43,1,3",
-    "4,46,1,3",
-    "4,35,1,5",
-    "5,35,1,5"
+    "4,46,1,3"
   ],
   "BackgroundPictures": [
     {

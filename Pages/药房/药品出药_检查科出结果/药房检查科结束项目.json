@@ -107,7 +107,7 @@
             "ColumnName": "门诊挂号状态"
           },
           "Value": "待出药",
-          "Id": "f6e17169-dcf1-45df-bff6-8882c6a6c516"
+          "Id": "9d63f418-39b0-4f6e-9270-84f8a5a8e20d"
         },
         "ItemsSort": {
           "OrderByColumns": [
@@ -126,7 +126,7 @@
               "Order": 1
             }
           ],
-          "Id": "50a71225-0c8b-4a2d-9ed7-3d1716104baa"
+          "Id": "3edb5cb6-b21e-43cc-959e-281a2775d783"
         },
         "DropDownSubItems": [
           {
@@ -264,7 +264,7 @@
                 "ColumnName": "项目状态"
               },
               "Value": "进行中",
-              "Id": "2a0e4a5b-6ff7-47d0-8dc9-c56b2cf6161d"
+              "Id": "7c11c2a9-fa27-4f4a-8f4c-e27c5b353a66"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -281,9 +281,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药房检查科结束项目!BF17"
               },
-              "Id": "37fa32d5-867c-4bdb-a89a-09e4e081686c"
+              "Id": "3e5d41c4-2768-4296-b22f-b7c01737fbf0"
             },
-            "Id": "856c0848-ab71-476b-8f76-0940c77f9cee"
+            "Id": "dbecedc5-ec2d-4ea8-80b2-72077a1e3750"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -297,14 +297,14 @@
               }
             },
             "Value": "待出药",
-            "Id": "af5b65f3-83bf-45b0-a354-9866f97fb49a"
+            "Id": "c5728ce7-7131-41a2-92d3-16827d6ee2b3"
           },
-          "Id": "442e246c-7823-4932-8e6a-3383e9631665"
+          "Id": "aae85223-78d6-4505-a042-51092c6743fb"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "60de9892-1ca4-4aa1-a6b9-ce7d5c4479d0"
+          "Id": "c8b73fd7-19b8-4ec2-b8a7-00f4ea3ae837"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -464,7 +464,7 @@
                           ]
                         },
                         "value": "药品",
-                        "Id": "c09808cc-f25a-4c3d-9e7c-78a0b58d0ea9"
+                        "Id": "9b95858f-0dd4-4480-a59c-1baafafba3d7"
                       },
                       "Condition2": {
                         "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -481,9 +481,9 @@
                           "SerializeProperty": "=药房检查科结束项目!AN9"
                         },
                         "compareType": 2,
-                        "Id": "2b81b4da-02a1-4613-a322-66c9dbbf6338"
+                        "Id": "acf317e6-136a-4109-ae09-62bf7749ec99"
                       },
-                      "Id": "2bc59afe-9b4c-4b62-b62d-c6e5f7cb8655"
+                      "Id": "14d06809-c350-45f1-9f91-275854fd1d12"
                     },
                     "CommandList": [
                       {
@@ -519,7 +519,7 @@
                     ]
                   },
                   "value": "0",
-                  "Id": "ecdfd1c7-72a3-4bf5-9ef5-62ffa1d4361a"
+                  "Id": "cf2cee6e-0444-480f-8add-15ac62ae8418"
                 },
                 "CommandList": [
                   {
@@ -595,7 +595,7 @@
                                 ]
                               },
                               "value": "药品",
-                              "Id": "f49e1b4c-badf-4cc6-b6c1-9172db6cd5d6"
+                              "Id": "ba4fe94c-761f-481e-b32d-0b2e03f99b5f"
                             },
                             "CommandList": [
                               {
@@ -614,7 +614,7 @@
                                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                     "SerializeProperty": "=药房检查科结束项目!E9"
                                   },
-                                  "Id": "66eb4b2b-23a2-4fd6-bd22-82542474d53c"
+                                  "Id": "d3522cf4-7c36-4f49-8e38-e37d0027c32f"
                                 },
                                 "UpdateValues": [
                                   {
@@ -666,7 +666,7 @@
                             ]
                           },
                           "value": "true",
-                          "Id": "f640b1dd-2dfe-48a1-b76c-f51585e5cd9d"
+                          "Id": "6936a8fc-b0f1-4482-a3b2-47b7481404ac"
                         },
                         "CommandList": [
                           {
@@ -684,7 +684,7 @@
                                     ]
                                   },
                                   "value": "1",
-                                  "Id": "d8559719-64d4-43b8-8fda-3cd03731bdf9"
+                                  "Id": "70dca135-4048-4dca-a9c8-383b09fb7be5"
                                 },
                                 "CommandList": [
                                   {
@@ -703,7 +703,7 @@
                                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                         "SerializeProperty": "=药房检查科结束项目!BF17"
                                       },
-                                      "Id": "da9311f8-2e4c-49e0-84e2-6ee26a25be24"
+                                      "Id": "fc9bfc6a-bde7-4dea-a197-2c48f17458c9"
                                     },
                                     "UpdateValues": [
                                       {
@@ -737,7 +737,7 @@
                                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                         "SerializeProperty": "=药房检查科结束项目!BF17"
                                       },
-                                      "Id": "3e116763-d925-4c65-86e0-19a26946a9b0"
+                                      "Id": "223d46d6-95cc-4c59-af04-616f1b2580ae"
                                     },
                                     "UpdateValues": [
                                       {
