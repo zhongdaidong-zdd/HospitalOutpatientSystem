@@ -184,6 +184,59 @@
       <Weight>0</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+      <BuiltInViewInfo>
+        <CreateViewSql>SELECT "FGC_UserName" AS "用户名","FGC_FullName" AS "全名","FGC_Email" AS "邮件","FGC_Role" AS "角色","FGC_OrganizationSuperior" AS "组织上级" FROM "FGC_UserInfoTable";</CreateViewSql>
+        <ViewName>用户信息视图</ViewName>
+        <ViewType>BuiltInUserInfo</ViewType>
+      </BuiltInViewInfo>
+      <Columns>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>用户名</Name>
+          <Required>True</Required>
+          <Unique>True</Unique>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>全名</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>邮件</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>角色</Name>
+        </Item>
+        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+          <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>System.String</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
+          <Name>组织上级</Name>
+        </Item>
+      </Columns>
+      <Name>用户信息视图</Name>
+      <PrimaryKey>
+        <Item type="System.String">
+          <Value>用户名</Value>
+        </Item>
+      </PrimaryKey>
+      <Weight>1</Weight>
+    </Item>
+    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <AutoIncrement>True</AutoIncrement>
@@ -250,7 +303,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>1</Weight>
+      <Weight>2</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <ColumnPermissions>
@@ -365,7 +418,7 @@
         </PermissionItems>
         <TableName>药品变动表</TableName>
       </RowPermissions>
-      <Weight>3</Weight>
+      <Weight>4</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -452,7 +505,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>4</Weight>
+      <Weight>5</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -492,7 +545,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>5</Weight>
+      <Weight>6</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <Columns>
@@ -557,7 +610,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
-      <Weight>6</Weight>
+      <Weight>7</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
       <ColumnPermissions>
@@ -675,7 +728,7 @@
         </PermissionItems>
         <TableName>金额交易表</TableName>
       </RowPermissions>
-      <Weight>2</Weight>
+      <Weight>3</Weight>
     </Item>
   </Tables>
 </TableSet>
