@@ -178,6 +178,7 @@
         "ColumnCount": 16,
         "RowCount": 31,
         "OddRowBackcolor": "Background 1 -5",
+        "IsAutoReload": true,
         "SelectionMode": 1,
         "ColumnOperation": 1,
         "Name": "表格2",
@@ -195,7 +196,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=TODAY()"
               },
-              "Id": "7fa0358b-3449-4236-b965-07eadef43e61"
+              "Id": "9acc5378-2f92-40d4-bac7-8e47ff9354f9"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -204,9 +205,9 @@
                 "ColumnName": "门诊挂号状态"
               },
               "Value": "待就诊",
-              "Id": "ad59f418-6147-4b9d-88c9-e95eec47dd90"
+              "Id": "889a6e18-dbc1-45ac-81d2-8d4001e7ff9f"
             },
-            "Id": "19578b4b-c80d-44f1-b48b-7cd3b12bf804"
+            "Id": "174a2b62-4750-4d7c-9ddd-516395957697"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -220,14 +221,14 @@
               }
             },
             "Value": "%CurrentUser%",
-            "Id": "fb9c0e1d-4d80-4061-a6bd-fc0693d4ad21"
+            "Id": "e5bcbe23-ec01-4a4e-932e-6387993b4019"
           },
-          "Id": "9bee1040-fb07-4854-b540-bf46d979e7db"
+          "Id": "aca4dfea-aaaa-45b4-8310-ad04ae70fa80"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e93f4792-2fef-4230-b9a5-d16fa16c8352"
+          "Id": "e0a1c413-44a7-4856-b6b5-4c300efbbf7c"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -246,7 +247,7 @@
               "Order": 0
             }
           ],
-          "Id": "22574470-92ea-4a63-94d2-60649ae75d9e"
+          "Id": "a3ae6bd2-4aa7-4617-92c4-166fa5459125"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -332,7 +333,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "ba102e20-1b78-48c5-8dff-46eb1475f31b"
+          "Id": "a9e35e44-b8d5-49ad-956a-241fcfb21802"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -379,7 +380,7 @@
               "ColumnName": "药品数量"
             },
             "Value": "0",
-            "Id": "f46940f1-adba-4f2a-ad3a-ff289e98661e"
+            "Id": "ab615787-531c-4b0a-8143-285e88688cba"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -388,10 +389,10 @@
               "ColumnName": "药品数量"
             },
             "Value": "%Null%",
-            "Id": "bb51911a-4e10-4b03-9d7c-361d6ea18099"
+            "Id": "ffe393c5-44cb-4781-83fa-6885178d5158"
           },
           "RelationType": 1,
-          "Id": "3374007e-a4af-4815-94ff-536b080b58ab"
+          "Id": "b837d0b6-2f79-41a8-81ba-8c246f334a22"
         },
         "UIPermissions": [
           {
@@ -536,7 +537,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "7079825c-c457-400f-98af-daf688348ac6"
+                  "Id": "50d551b9-3ccd-4e81-9756-3cc3b3915e4c"
                 },
                 "CommandList": [
                   {
@@ -583,7 +584,7 @@
                                   ]
                                 },
                                 "value": "进行中",
-                                "Id": "da513825-1043-4fe6-93b9-37eb8eea344b"
+                                "Id": "c289abb4-0690-440c-8693-709f439e0e3f"
                               },
                               "Condition2": {
                                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -596,9 +597,9 @@
                                   ]
                                 },
                                 "value": "检查项目",
-                                "Id": "692ce8d7-1475-4924-8cc3-155fab0fa6b5"
+                                "Id": "468b1ff7-3104-4bc2-a5b8-3e842c29453d"
                               },
-                              "Id": "1cd20bfe-b77c-44be-82e7-e45b4bd69726"
+                              "Id": "70113431-a193-421d-ba9c-fc1b71c3dd0b"
                             },
                             "CommandList": [
                               {
@@ -634,7 +635,7 @@
                             ]
                           },
                           "value": "0",
-                          "Id": "a9e52a81-96a4-40cd-a9e4-7343aa8e930c"
+                          "Id": "58a16481-d7b8-42da-b667-870966deb8c5"
                         },
                         "CommandList": [
                           {
@@ -706,7 +707,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "4eae7133-14e6-4ea9-baf3-c542f9fefb3a"
+                  "Id": "619d1882-edbd-41bb-886d-56eb18378d14"
                 },
                 "CommandList": [
                   {
@@ -762,7 +763,7 @@
                                 ]
                               },
                               "value": "进行中",
-                              "Id": "e04c506f-295c-4c35-a692-4785d66fc51f"
+                              "Id": "5d887b3a-6de0-4584-8375-3f77c47ad456"
                             },
                             "CommandList": [
                               {
@@ -791,7 +792,7 @@
                                         ]
                                       },
                                       "value": "检查项目",
-                                      "Id": "e3bc4aa9-c850-44ca-b121-821c55232e4e"
+                                      "Id": "9ff9a61f-0511-476d-80ee-c3d5ad67df71"
                                     },
                                     "CommandList": [
                                       {
@@ -832,7 +833,7 @@
                             ]
                           },
                           "value": "0",
-                          "Id": "1529ba78-f7fd-4d2b-824f-bc530e2e300f"
+                          "Id": "ca3fa048-283d-4428-863d-b24b9168a7ee"
                         },
                         "CommandList": [
                           {
@@ -863,7 +864,7 @@
                                     ]
                                   },
                                   "value": "0",
-                                  "Id": "46692939-f2bb-4391-8e67-14259abec096"
+                                  "Id": "85a1abdc-a58a-4ca0-ba89-05e1801620c4"
                                 },
                                 "CommandList": [
                                   {
@@ -3637,13 +3638,13 @@
     "35,34,1,5",
     "35,40,1,10",
     "7,3,29,16",
-    "5,3,1,6",
-    "5,9,1,6",
-    "5,15,1,4",
     "22,23,1,10",
     "22,33,1,4",
     "22,37,1,4",
-    "22,43,1,7"
+    "22,43,1,7",
+    "5,3,1,6",
+    "5,9,1,6",
+    "5,15,1,4"
   ],
   "BackgroundPictures": [
     {
@@ -3680,7 +3681,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "if(Forguncy.Page.getListView(\"表格2\").getRowCount() > 0){\r\n  Forguncy.Page.getListView(\"表格2\").selectRow(0);\r\n}",
-        "ID": "dfd10715ac744ddca5d00d246e38cf89"
+        "ID": "143664de1a444decb9dd330c6aa6c37e"
       }
     ],
     "AuthorizeInfo": {
