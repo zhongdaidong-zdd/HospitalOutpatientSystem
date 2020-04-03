@@ -133,7 +133,7 @@
                     ]
                   },
                   "value": "药品",
-                  "Id": "21b83140-77bf-4394-87da-0c2fcfc273c4"
+                  "Id": "9a3ab755-c4f0-493b-89e3-144e35b780e9"
                 },
                 "CommandList": [
                   {
@@ -238,13 +238,14 @@
         "ColumnName": "药品单价"
       },
       "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 4,
         "IgnoreBlank": false,
-        "FirstParamValue": "",
+        "FirstParamValue": "0",
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的整数"
       }
     },
     "9,7": {
@@ -271,13 +272,14 @@
         "ColumnName": "药品进货价格"
       },
       "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 4,
         "IgnoreBlank": false,
-        "FirstParamValue": "",
+        "FirstParamValue": "0",
         "SecondParamValue": "",
         "InputMessageTitle": "",
         "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的整数"
       }
     },
     "11,7": {
@@ -324,7 +326,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "0b4f1c05-e208-4018-9027-82fc2db9352c"
+                  "Id": "b9271add-238e-4719-a7d7-7c1f635636cc"
                 },
                 "CommandList": [
                   {
