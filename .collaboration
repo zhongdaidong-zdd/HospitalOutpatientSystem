@@ -197,7 +197,21 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "ModuleType": 10
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-03T14:17:07.8731696+08:00",
+    "ModuleType": 10,
+    "ToRemoveFiles": [
+      "image\\logo.png",
+      "image\\Payment.png",
+      "image\\Registration.png",
+      "image\\TakeMedicine.png",
+      "image\\内建登录配图.jpg",
+      "image\\未命名文件 (1).jpg"
+    ]
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
