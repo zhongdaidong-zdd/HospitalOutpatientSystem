@@ -181,7 +181,16 @@
   },
   {
     "ModuleName": "医院母版页",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Jessica",
+      "Email": "jessica.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T14:31:07.8941805+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "Pages\\医院母版页.json"
+    ]
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
@@ -221,15 +230,25 @@
   },
   {
     "ModuleName": "说明文档",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "Jessica",
       "Email": "jessica.yang@grapecity.com"
     },
-    "LockDateTime": "2020-04-14T14:30:45.2277303+08:00",
+    "LockDateTime": "2020-04-14T14:31:07.8941805+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\说明文档.json"
     ]
+  },
+  {
+    "ModuleName": "使用文档",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Jessica",
+      "Email": "jessica.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T14:31:07.8941805+08:00",
+    "ModuleType": 1
   }
 ]
