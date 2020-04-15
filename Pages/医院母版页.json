@@ -302,17 +302,14 @@
             ]
           },
           {
-            "Value": "说明文档",
-            "Text": "说明文档",
-            "IsBuiltInIconPath": false,
-            "SelectedIconColor": null,
-            "IconColor": null,
-            "IsBuiltInSelectedIconPath": false,
+            "Value": "使用文档",
+            "Text": "使用文档",
+            "SelectedIconColor": "Background 1",
             "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "说明文档",
+                "PageName": "使用文档",
                 "PassValues": []
               }
             ],
@@ -329,7 +326,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "f9c36eefe069463199d6468e89697d69"
+                "ID": "77810f751cba4748ab0bba934e3ffe98"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
