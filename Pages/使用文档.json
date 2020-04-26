@@ -75,7 +75,7 @@
             "ColumnName": "用户名"
           },
           "Value": "Administrator",
-          "Id": "8ae2c559-e048-49d3-b6f4-20de84470fcb"
+          "Id": "8ef83eaf-1d86-4762-bf8d-476944f3d2fc"
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Light2"
@@ -96,20 +96,6 @@
     "24,3": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "flowchart.jpg"
       }
     }

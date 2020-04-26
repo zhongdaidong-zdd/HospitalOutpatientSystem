@@ -77,12 +77,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "8700d7af-7331-4714-a9ec-223d4d938e08"
+          "Id": "36c0d72e-b7b7-4afd-8420-78ba87942148"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "472f8214-e704-46b3-98f8-261af80d04c7"
+          "Id": "8c176c76-1cde-4d9d-adf4-e34b7b93e5da"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -122,30 +122,10 @@
           }
         ],
         "TemplateKey": "直角不透明",
-        "WaterMark": "请输入病人姓名",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": "请输入病人姓名"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "4,23": {
@@ -157,30 +137,13 @@
           }
         ],
         "TemplateKey": "直角不透明",
-        "WaterMark": "病人联系电话",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": "病人联系电话"
       },
       "DataValidationInfo": {
         "NumberType": 1,
         "FirstParamValue": "100000",
         "SecondParamValue": "99999999999",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入正确的联系电话",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入正确的联系电话"
       }
     },
     "4,39": {
@@ -199,30 +162,10 @@
             "Value": "女",
             "DisplayValue": "女"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "6,7": {
@@ -253,30 +196,10 @@
         "DisplayColumnBindingInfo": {
           "TableName": "医院科室字典表",
           "ColumnName": "科室名称"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "6,23": {
@@ -321,7 +244,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!AY16"
             },
-            "Id": "d246f2fe-5028-4bc2-95ba-6fa0257a14a1"
+            "Id": "0a4dc3d1-54f9-4b04-a658-94c46fc2b75a"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -333,33 +256,13 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=挂号!H7"
             },
-            "Id": "5b49efbb-8482-410d-86c8-c0298dd255bc"
+            "Id": "0d730ecd-2000-4e83-bde6-8ad6609e1c06"
           },
-          "Id": "4339ba63-a69f-4ebe-bb9c-7d0cfc541c91"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+          "Id": "be7ebd3d-a66c-4313-af7a-9cec82c54b1d"
+        }
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "8,19": {
@@ -512,21 +415,7 @@
         ],
         "Text": "挂号",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "10,50": {
@@ -543,7 +432,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "70846e77-f93c-4580-a55e-c1f64e6c73af"
+          "Id": "d74161e7-0f17-4dd3-9acc-cd74a1232f35"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -583,12 +472,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=TODAY()"
           },
-          "Id": "ed668c7b-86a1-4a69-b63d-5802ff7699cf"
+          "Id": "0e5784b6-5518-4e02-b5ea-cbebc3906c1c"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "478f7614-c3b4-4477-a821-261b9551e9df"
+          "Id": "799f551b-0887-4a50-86b8-457b2aec51d8"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -607,7 +496,7 @@
               "Order": 0
             }
           ],
-          "Id": "838793e3-6f4c-43cc-be09-62f7c65be786"
+          "Id": "9f382cf3-cdd4-41c6-8680-ea145ace2a05"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

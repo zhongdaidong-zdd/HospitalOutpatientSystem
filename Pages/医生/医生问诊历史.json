@@ -79,7 +79,7 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=医生问诊历史!AY31"
           },
-          "Id": "79439a15-a346-4b81-b61c-9d23059404b3"
+          "Id": "5db97b84-0925-4cc8-9665-f152e1b60aff"
         },
         "DropDownSubItems": [
           {
@@ -119,40 +119,12 @@
               "ColumnName": "挂号日期"
             }
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
     "2,47": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -179,12 +151,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=医生问诊历史!AG3"
           },
-          "Id": "af9b535f-7612-4c69-b314-514bd29f4d70"
+          "Id": "e341ebe2-8eac-417d-a985-d4a30cdbb5be"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "50633304-b7ab-42ab-82a2-0b8c2b0e21c5"
+          "Id": "73ce5219-4c88-462e-85dc-8ea92a5b95cc"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -203,7 +175,7 @@
               "Order": 0
             }
           ],
-          "Id": "a1af9f77-ddb2-4fd1-804b-9142f0a92b07"
+          "Id": "2017302d-94e3-4b19-a618-198373c329f4"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -280,21 +252,7 @@
           }
         ],
         "Text": "详情",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "17,50": {
@@ -311,7 +269,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "d61e213c-a59d-4908-b199-116878c0e002"
+          "Id": "94d6204c-abcf-488a-8d47-823638782732"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -2745,7 +2703,7 @@
               },
               "value": "管理员",
               "compareType": 10,
-              "Id": "29cdc609-00b6-425e-b96d-dc0da7061629"
+              "Id": "6986b3ed-e98c-450f-a488-27b3cb222def"
             },
             "CommandList": [
               {
@@ -2766,7 +2724,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "=医生问诊历史!AY9"
                   },
-                  "Id": "29e1512a-d1a7-440e-aca3-8f077b2a4fc9"
+                  "Id": "fb8663ad-6460-4964-830b-f15bb002928b"
                 },
                 "Params": [
                   "=AY9"
@@ -2793,7 +2751,7 @@
                     }
                   },
                   "Value": "%CurrentUser%",
-                  "Id": "e9a05255-291a-4815-9f23-45f598e23fa4"
+                  "Id": "321faeca-b175-43d9-89b6-242a76f6c93b"
                 },
                 "Params": [],
                 "ID": "8654f0da4a62470981011a4bca6b1089"

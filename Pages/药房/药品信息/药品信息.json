@@ -44,21 +44,7 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -73,34 +59,14 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "项目字典表",
         "ColumnName": "项目名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "5,7": {
@@ -133,7 +99,7 @@
                     ]
                   },
                   "value": "药品",
-                  "Id": "9a3ab755-c4f0-493b-89e3-144e35b780e9"
+                  "Id": "ed74a78f-56e7-4bff-b42e-f9c7303b05eb"
                 },
                 "CommandList": [
                   {
@@ -184,20 +150,6 @@
               }
             ]
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -205,33 +157,13 @@
         "ColumnName": "类型"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "7,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -242,30 +174,13 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
         "ErrorMessage": "请输入一个大于0的整数"
       }
     },
     "9,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -276,9 +191,6 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
         "ErrorMessage": "请输入一个大于0的整数"
       }
     },
@@ -286,21 +198,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -326,7 +224,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "b9271add-238e-4719-a7d7-7c1f635636cc"
+                  "Id": "5ded33e2-2780-40f7-9c72-3a46217866f2"
                 },
                 "CommandList": [
                   {
@@ -361,21 +259,7 @@
         ],
         "Text": "确定",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "15,12": {
@@ -387,21 +271,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },

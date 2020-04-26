@@ -58,7 +58,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c7ae76cb-f207-48d2-a723-1a2ea51b6cd3"
+          "Id": "96a35516-d8a9-4ba4-bfd6-37068c2ba35f"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -80,21 +80,7 @@
     },
     "4,21": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "门诊挂号单_项目表",
@@ -116,21 +102,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },

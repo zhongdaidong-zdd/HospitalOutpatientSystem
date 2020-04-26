@@ -126,20 +126,6 @@
           }
         ],
         "TemplateKey": "样式1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Registration.png"
       }
     },
@@ -154,20 +140,6 @@
           }
         ],
         "TemplateKey": "样式1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Inquiry.png"
       }
     },
@@ -182,20 +154,6 @@
           }
         ],
         "TemplateKey": "样式1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Payment.png"
       }
     },
@@ -210,20 +168,6 @@
           }
         ],
         "TemplateKey": "样式1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "TakeMedicine.png"
       }
     },
@@ -252,12 +196,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=2017"
           },
-          "Id": "496ac5ed-1af4-4e28-a7a1-b2aab4981716"
+          "Id": "aa0ff16b-d79f-48ea-9583-5a55cf9dfec8"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "946e35af-df1a-401a-b25d-51e8572581e9"
+          "Id": "64720e20-380b-4df7-b680-e311c843ef8e"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

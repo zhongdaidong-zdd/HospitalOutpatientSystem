@@ -86,40 +86,12 @@
               "ColumnName": "挂号日期"
             }
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
     "2,47": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -146,12 +118,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药房出药和检查历史!AG3"
           },
-          "Id": "942f723c-e182-4ced-9474-42ad678a7c0e"
+          "Id": "332cd0a6-7e8c-4fd1-a63a-e7d727b54dd7"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "8910fa96-e47c-4628-a02e-ef3dfc02eb78"
+          "Id": "a75f1d52-61ad-42e9-ba97-088c15d048dd"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -170,7 +142,7 @@
               "Order": 0
             }
           ],
-          "Id": "a4988378-34f8-452a-a38b-5446152398ee"
+          "Id": "82305f85-250d-48fe-9505-43b369c4c77c"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -247,21 +219,7 @@
           }
         ],
         "Text": "查看",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },
@@ -2377,15 +2335,15 @@
     "5,44,1,5",
     "5,7,1,4",
     "5,24,1,6",
+    "5,30,1,8",
     "4,1,1,6",
     "4,7,1,4",
     "4,11,1,6",
     "4,17,1,7",
     "4,24,1,6",
-    "4,38,1,6",
-    "4,44,1,5",
     "4,30,1,8",
-    "5,30,1,8"
+    "4,38,1,6",
+    "4,44,1,5"
   ],
   "BackgroundPictures": [
     {

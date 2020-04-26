@@ -72,40 +72,12 @@
               "ColumnName": "项目名称"
             }
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
     "2,39": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -131,21 +103,7 @@
           }
         ],
         "Text": "新增",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "4,1": {
@@ -168,12 +126,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药品信息管理!AC3"
           },
-          "Id": "5a606db8-184f-4793-bdb3-9ec4f49728b3"
+          "Id": "d1be4a48-7d09-406d-83de-be0aac58ca74"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "7217bc05-2528-4a1e-a695-9123cd130910"
+          "Id": "b4a30dd9-3ed4-4638-b590-59912655df5f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -185,7 +143,7 @@
               "Order": 0
             }
           ],
-          "Id": "e476458a-0b90-429a-abef-7c255bcb8ae7"
+          "Id": "e36b55d6-b289-4222-b096-06fb906175d0"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -248,21 +206,7 @@
           }
         ],
         "Text": "详情",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     },
     "5,43": {
@@ -284,7 +228,7 @@
                     ]
                   },
                   "value": "检查项目",
-                  "Id": "3dacc9d7-a50f-45f6-b617-df5991bb5f75"
+                  "Id": "7d183998-373b-4059-89b7-2c7a4df3c23c"
                 },
                 "CommandList": [
                   {
@@ -309,21 +253,7 @@
           }
         ],
         "Text": "进货",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "ConditionFormatRulesCollection": {
         "Rules": [
@@ -355,21 +285,7 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },

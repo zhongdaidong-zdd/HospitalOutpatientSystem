@@ -97,7 +97,7 @@
             "ColumnName": "门诊挂号状态"
           },
           "Value": "待缴费",
-          "Id": "edae3282-896f-4a63-b628-0dfc8e641b27"
+          "Id": "4a4c3825-5ff1-49e3-b18a-b87be036f040"
         },
         "DropDownSubItems": [
           {
@@ -155,49 +155,15 @@
               "ColumnName": "挂号时间"
             }
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "2,35": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
         "Color": "Text 1 50"
@@ -234,7 +200,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=缴费页面!BE14"
               },
-              "Id": "801a7d7a-3144-44be-8117-c8bcf1f09f58"
+              "Id": "6c6d6250-6776-4281-9669-83d9d715350b"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -243,9 +209,9 @@
                 "ColumnName": "项目状态"
               },
               "Value": "进行中",
-              "Id": "6d612d08-df30-4bc3-a620-e017448a4ea2"
+              "Id": "6150e424-867e-4bf6-b111-0a741bfe115e"
             },
-            "Id": "ea262771-0464-49ee-8aa4-62fad142f1d3"
+            "Id": "49a0627e-6f15-446e-9a7a-29adefb691ab"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -259,14 +225,14 @@
               }
             },
             "Value": "待缴费",
-            "Id": "5e450498-84a4-47ff-ac9c-754a58f7a68b"
+            "Id": "29118685-b714-4fb8-b8ef-fa4e787f16ea"
           },
-          "Id": "0339c456-f6f7-4b1c-b936-62eeb86142c5"
+          "Id": "8b0e834e-e617-4c36-912f-f28fa1f0d37d"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "cb167510-6d8b-4bf4-9b37-4a8ce37cab93"
+          "Id": "9f3cbb4f-fb09-4cb1-91e4-ce4f3be955f5"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -289,20 +255,6 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -336,7 +288,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a8d24a74-5316-440d-baab-a56a4016c539"
+          "Id": "dd6e1ebe-802c-4050-984d-eb8cfa3fdc47"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -427,7 +379,7 @@
                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                     "SerializeProperty": "=缴费页面!AK9"
                   },
-                  "Id": "559c256f-cae0-4cf0-b76f-d02c0c44b0d2"
+                  "Id": "fbdee920-301a-49be-88c2-f56ce6d15aae"
                 },
                 "UpdateValues": [
                   {
@@ -457,7 +409,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=缴费页面!O3"
               },
-              "Id": "f3a99753-4c53-470a-9730-9b72b8bd395b"
+              "Id": "691bb682-9c7d-4468-883f-87bfa9e01c95"
             },
             "UpdateValues": [
               {
@@ -483,21 +435,7 @@
           }
         ],
         "Text": "确认缴费",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },

@@ -51,21 +51,7 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -88,20 +74,6 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "入库"
       },
       "BindingInfo": {
@@ -119,21 +91,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -145,20 +103,6 @@
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "DataValidationInfo": {
@@ -166,32 +110,14 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入一个大于0的整数。",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的整数。"
       }
     },
     "9,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       }
     },
     "13,8": {
@@ -292,7 +218,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药品进货!H2"
               },
-              "Id": "a6ba3200-f26e-41f6-875c-be72125b5945"
+              "Id": "d2682a2a-373a-4b7d-9c2b-28572436a3dd"
             },
             "UpdateValues": [
               {
@@ -311,21 +237,7 @@
         ],
         "Text": "确定",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "13,13": {
@@ -337,21 +249,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },

@@ -31,34 +31,14 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "医院科室字典表",
         "ColumnName": "科室名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "3,3": {
@@ -84,7 +64,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "0174b33d-b555-4c01-ba9e-ffd0f7b14f4d"
+          "Id": "9ac1806f-e93e-4de0-98f4-45ecc209cc06"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -99,32 +79,12 @@
         "ColumnName": "医生姓名"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "4,10": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.UploadImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -134,21 +94,7 @@
     },
     "4,16": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.DateCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -157,21 +103,7 @@
     },
     "4,25": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.NumberCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -182,32 +114,14 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入一个大于0的数。",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的数。"
       }
     },
     "4,33": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "DecimalPlacesNumber": 2,
-        "Use1000Sepatator": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "Use1000Sepatator": true
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -218,11 +132,7 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入一个大于0的数。",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的数。"
       }
     },
     "26,28": {
@@ -244,7 +154,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "6ef03fb4-cc0b-471f-8dbc-e902f1ded84e"
+                  "Id": "59655e3c-1d4c-4315-89d3-24f16ce237e5"
                 },
                 "CommandList": [
                   {
@@ -278,21 +188,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "26,34": {
@@ -304,21 +200,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },

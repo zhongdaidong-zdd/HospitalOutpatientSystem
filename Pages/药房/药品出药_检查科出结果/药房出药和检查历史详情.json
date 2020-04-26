@@ -61,12 +61,12 @@
             "ColumnName": "项目状态"
           },
           "Value": "已完成",
-          "Id": "fc4d2513-cb12-44aa-a561-f992b5ae1d10"
+          "Id": "7898ad8a-772c-4482-9ac5-cee4dd35fc16"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "7ad24a0e-67cb-4ca4-9ec4-6b9a1621d081"
+          "Id": "4a60d6b4-2214-4e48-b272-b0d221f8ba09"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -89,20 +89,6 @@
     "4,21": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -131,21 +117,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },

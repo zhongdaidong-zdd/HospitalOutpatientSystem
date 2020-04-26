@@ -88,40 +88,12 @@
               "ColumnName": "挂号日期"
             }
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       }
     },
     "2,47": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -148,12 +120,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=缴费历史!AG3"
           },
-          "Id": "79107d71-ab46-427e-95a0-18013ac11912"
+          "Id": "d21a005a-bc26-4842-afda-5644519b8413"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e9d0936a-2d1f-4126-83fb-a61c850f1dcb"
+          "Id": "5796d438-b193-4a89-ad32-5e8b546dd5a6"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -172,7 +144,7 @@
               "Order": 0
             }
           ],
-          "Id": "3914f2f3-15da-48ce-b404-17d0e0a3c215"
+          "Id": "2d3e82f3-d69b-4fb7-af39-593e6c202cde"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -249,21 +221,7 @@
           }
         ],
         "Text": "查看",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },

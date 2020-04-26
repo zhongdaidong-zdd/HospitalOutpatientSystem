@@ -19,20 +19,6 @@
     "1,1": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImageSizeMode": 0,
         "ImagePath": "logo.png"
       }
@@ -326,7 +312,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '医院门诊系统');",
-                "ID": "77810f751cba4748ab0bba934e3ffe98"
+                "ID": "18139e5b773242ce943f95a9a8b21175"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",

@@ -69,21 +69,7 @@
           }
         ],
         "Text": "第一位",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "2,32": {
@@ -97,21 +83,7 @@
           }
         ],
         "Text": "上一位",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,38": {
@@ -124,21 +96,7 @@
           }
         ],
         "Text": "下一位",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "2,46": {
@@ -152,21 +110,7 @@
           }
         ],
         "Text": "最后一位",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "5,3": {
@@ -196,7 +140,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=TODAY()"
               },
-              "Id": "9acc5378-2f92-40d4-bac7-8e47ff9354f9"
+              "Id": "9f635013-09c4-4baf-9b95-4ffcde2f8410"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -205,9 +149,9 @@
                 "ColumnName": "门诊挂号状态"
               },
               "Value": "待就诊",
-              "Id": "889a6e18-dbc1-45ac-81d2-8d4001e7ff9f"
+              "Id": "44f3fc75-89b0-4c4c-8538-c7d61645b013"
             },
-            "Id": "174a2b62-4750-4d7c-9ddd-516395957697"
+            "Id": "1ae56457-08e1-4858-b5a0-f610c20bf66e"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -221,14 +165,14 @@
               }
             },
             "Value": "%CurrentUser%",
-            "Id": "e5bcbe23-ec01-4a4e-932e-6387993b4019"
+            "Id": "8c3c8260-37b6-40af-937f-a150c7770430"
           },
-          "Id": "aca4dfea-aaaa-45b4-8310-ad04ae70fa80"
+          "Id": "9b238782-1178-4680-a7de-be54a1136fe8"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e0a1c413-44a7-4856-b6b5-4c300efbbf7c"
+          "Id": "e6fb6ac2-9df7-46cd-949b-8e5b3cde021f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -247,7 +191,7 @@
               "Order": 0
             }
           ],
-          "Id": "a3ae6bd2-4aa7-4617-92c4-166fa5459125"
+          "Id": "9bf42dbd-29f9-4ac6-89ad-b59916f11bca"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -289,21 +233,7 @@
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
         "TemplateKey": "直角不透明",
-        "WaterMark": "请输入诊断意见",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "WaterMark": "请输入诊断意见"
       },
       "BindingInfo": {
         "TableName": "门诊挂号单表",
@@ -333,7 +263,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a9e35e44-b8d5-49ad-956a-241fcfb21802"
+          "Id": "a2660998-0689-46ae-a196-b6944c555c7b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -380,7 +310,7 @@
               "ColumnName": "药品数量"
             },
             "Value": "0",
-            "Id": "ab615787-531c-4b0a-8143-285e88688cba"
+            "Id": "80850176-dd16-422e-9e09-94f476c5b6ba"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -389,57 +319,23 @@
               "ColumnName": "药品数量"
             },
             "Value": "%Null%",
-            "Id": "ffe393c5-44cb-4781-83fa-6885178d5158"
+            "Id": "36f977f9-b49f-487b-99d9-d4f436566c61"
           },
           "RelationType": 1,
-          "Id": "b837d0b6-2f79-41a8-81ba-8c246f334a22"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+          "Id": "8212d057-8a5d-483a-8711-0bf1f40c4e0e"
+        }
       },
       "BindingInfo": {
         "TableName": "门诊挂号单_项目表",
         "ColumnName": "药品ID"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "23,33": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -451,11 +347,7 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入一个大于0的整数。",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的整数。"
       }
     },
     "23,37": {
@@ -466,21 +358,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       }
     },
     "23,42": {
@@ -497,21 +375,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "门诊挂号单_项目表",
@@ -537,7 +401,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "50d551b9-3ccd-4e81-9756-3cc3b3915e4c"
+                  "Id": "b79ac732-ca5f-491d-855c-33dbc59df4bf"
                 },
                 "CommandList": [
                   {
@@ -584,7 +448,7 @@
                                   ]
                                 },
                                 "value": "进行中",
-                                "Id": "c289abb4-0690-440c-8693-709f439e0e3f"
+                                "Id": "93bfb06e-6a2a-4bc7-8a0e-8ef50c111d96"
                               },
                               "Condition2": {
                                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -597,9 +461,9 @@
                                   ]
                                 },
                                 "value": "检查项目",
-                                "Id": "468b1ff7-3104-4bc2-a5b8-3e842c29453d"
+                                "Id": "2f685c09-1f71-406f-813e-7e7856e263a2"
                               },
-                              "Id": "70113431-a193-421d-ba9c-fc1b71c3dd0b"
+                              "Id": "a4fd5924-9a06-4273-8250-da70fe6f7486"
                             },
                             "CommandList": [
                               {
@@ -635,7 +499,7 @@
                             ]
                           },
                           "value": "0",
-                          "Id": "58a16481-d7b8-42da-b667-870966deb8c5"
+                          "Id": "04b41a64-ee91-4a64-8729-461ed0728534"
                         },
                         "CommandList": [
                           {
@@ -671,21 +535,7 @@
           }
         ],
         "Text": "检查",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "35,40": {
@@ -707,7 +557,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "619d1882-edbd-41bb-886d-56eb18378d14"
+                  "Id": "2cdd2a0e-764c-4260-a2d3-da4ce515b909"
                 },
                 "CommandList": [
                   {
@@ -763,7 +613,7 @@
                                 ]
                               },
                               "value": "进行中",
-                              "Id": "5d887b3a-6de0-4584-8375-3f77c47ad456"
+                              "Id": "7efbe0c5-8656-430a-8b44-87304e660dad"
                             },
                             "CommandList": [
                               {
@@ -792,7 +642,7 @@
                                         ]
                                       },
                                       "value": "检查项目",
-                                      "Id": "9ff9a61f-0511-476d-80ee-c3d5ad67df71"
+                                      "Id": "eeb04ab1-e285-40f4-abb9-14ee1db08970"
                                     },
                                     "CommandList": [
                                       {
@@ -833,7 +683,7 @@
                             ]
                           },
                           "value": "0",
-                          "Id": "ca3fa048-283d-4428-863d-b24b9168a7ee"
+                          "Id": "2135da74-503d-4cca-9560-133b394362f9"
                         },
                         "CommandList": [
                           {
@@ -864,7 +714,7 @@
                                     ]
                                   },
                                   "value": "0",
-                                  "Id": "85a1abdc-a58a-4ca0-ba89-05e1801620c4"
+                                  "Id": "c55e64f3-a56f-48e2-a51c-43c6146c0222"
                                 },
                                 "CommandList": [
                                   {
@@ -921,21 +771,7 @@
           }
         ],
         "Text": "开药（结束本次问诊）",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -3638,13 +3474,13 @@
     "35,34,1,5",
     "35,40,1,10",
     "7,3,29,16",
+    "5,3,1,6",
+    "5,9,1,6",
+    "5,15,1,4",
     "22,23,1,10",
     "22,33,1,4",
     "22,37,1,4",
-    "22,43,1,7",
-    "5,3,1,6",
-    "5,9,1,6",
-    "5,15,1,4"
+    "22,43,1,7"
   ],
   "BackgroundPictures": [
     {
@@ -3681,7 +3517,7 @@
       {
         "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
         "JavaScript": "if(Forguncy.Page.getListView(\"表格2\").getRowCount() > 0){\r\n  Forguncy.Page.getListView(\"表格2\").selectRow(0);\r\n}",
-        "ID": "143664de1a444decb9dd330c6aa6c37e"
+        "ID": "98bbbaf072824618a7081136e9d317d8"
       }
     ],
     "AuthorizeInfo": {

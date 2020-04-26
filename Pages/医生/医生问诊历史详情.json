@@ -71,21 +71,7 @@
         "$type": "Forguncy.MultilineTextBox, Forguncy",
         "TemplateKey": "直角不透明",
         "WaterMark": "暂无。",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "门诊挂号单表",
@@ -111,7 +97,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "db7668c4-7983-46d3-a227-6b79d213f79d"
+          "Id": "d0026d6c-8802-4c30-952b-a248e7d246de"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -155,22 +141,8 @@
             "ColumnName": "药品数量"
           },
           "Value": "0",
-          "Id": "163cc75e-7b05-4247-a4eb-bbe3205689b6"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+          "Id": "cd9b073a-7e94-4167-83c3-34b6924dddac"
+        }
       },
       "BindingInfo": {
         "TableName": "门诊挂号单_项目表",
@@ -180,20 +152,6 @@
     "20,12": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -215,20 +173,6 @@
             "Value": "已完成",
             "DisplayValue": "已完成"
           }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
         ]
       },
       "BindingInfo": {
@@ -245,21 +189,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
