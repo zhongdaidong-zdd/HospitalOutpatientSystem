@@ -21,7 +21,7 @@
     "2,32": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
-        "AutoFilter": 3,
+        "AutoFilter": 4,
         "ShowDropdownButtonWhenGetFocus": 1,
         "SelectOnly": false,
         "ValidateItem": true,
@@ -88,12 +88,40 @@
               "ColumnName": "挂号日期"
             }
           }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
         ]
       }
     },
     "2,47": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -120,12 +148,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=缴费历史!AG3"
           },
-          "Id": "d21a005a-bc26-4842-afda-5644519b8413"
+          "Id": "5646d161-7358-4b69-b15e-7d8dae3176e4"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "5796d438-b193-4a89-ad32-5e8b546dd5a6"
+          "Id": "b51bc12e-1779-4e96-9f14-38f3a172dfd7"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -144,7 +172,7 @@
               "Order": 0
             }
           ],
-          "Id": "2d3e82f3-d69b-4fb7-af39-593e6c202cde"
+          "Id": "635b6bbc-fda4-4529-a632-e6aa07015cea"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -221,7 +249,21 @@
           }
         ],
         "Text": "查看",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
