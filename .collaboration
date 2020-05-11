@@ -122,7 +122,16 @@
   },
   {
     "ModuleName": "科室列表编辑",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-11T17:06:08.8153062+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\系统配置\\科室列表编辑.json"
+    ]
   },
   {
     "ModuleName": "管理员首页",
