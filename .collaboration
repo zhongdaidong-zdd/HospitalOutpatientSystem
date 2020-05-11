@@ -101,7 +101,16 @@
   },
   {
     "ModuleName": "挂号",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-11T17:05:22.6658271+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\挂号\\挂号.json"
+    ]
   },
   {
     "ModuleName": "Pages\\系统配置",
