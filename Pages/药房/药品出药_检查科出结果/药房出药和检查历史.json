@@ -21,8 +21,10 @@
     "2,32": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
-        "AutoFilter": 3,
+        "AutoFilter": 4,
         "ShowDropdownButtonWhenGetFocus": 1,
+        "SelectOnly": false,
+        "ValidateItem": true,
         "WaterMark": "请输入就诊病历编号",
         "IsBounding": true,
         "Items": [
@@ -86,12 +88,40 @@
               "ColumnName": "挂号日期"
             }
           }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
         ]
       }
     },
     "2,47": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImageSizeMode": 0,
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
@@ -118,12 +148,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=药房出药和检查历史!AG3"
           },
-          "Id": "332cd0a6-7e8c-4fd1-a63a-e7d727b54dd7"
+          "Id": "01163a6f-855b-4c4c-83fe-22ec00c098ee"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a75f1d52-61ad-42e9-ba97-088c15d048dd"
+          "Id": "fea4667d-c13a-44d5-a250-41601c2c00a5"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -142,7 +172,7 @@
               "Order": 0
             }
           ],
-          "Id": "82305f85-250d-48fe-9505-43b369c4c77c"
+          "Id": "8bdd6a0b-51b1-435c-ae54-c5db39b7637b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -219,7 +249,21 @@
           }
         ],
         "Text": "查看",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
