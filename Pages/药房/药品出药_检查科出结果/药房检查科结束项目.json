@@ -107,7 +107,7 @@
             "ColumnName": "门诊挂号状态"
           },
           "Value": "待出药",
-          "Id": "23ffec83-6082-4547-a200-50df2133c25f"
+          "Id": "0c74a58d-2317-4471-8121-4352b58fe12c"
         },
         "ItemsSort": {
           "OrderByColumns": [
@@ -126,7 +126,7 @@
               "Order": 1
             }
           ],
-          "Id": "83ff95fb-b5df-4b4d-ab81-2bb733b62cbe"
+          "Id": "8b7e35f2-300c-4cb7-a7e2-69ad4aa75266"
         },
         "DropDownSubItems": [
           {
@@ -192,15 +192,49 @@
               "ColumnName": "挂号时间"
             }
           }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
         ]
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "2,35": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImagePath": "Application/047_search_8.svg",
         "BuiltIn": true,
         "Color": "Text 1 50"
@@ -230,7 +264,7 @@
                 "ColumnName": "项目状态"
               },
               "Value": "进行中",
-              "Id": "b063f775-11a7-4211-bce8-265aac403562"
+              "Id": "f74fbdcd-4935-47ff-8e57-82ed50735b69"
             },
             "Condition2": {
               "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -247,9 +281,9 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药房检查科结束项目!BF17"
               },
-              "Id": "9d72167b-a7f2-4f84-8c27-da932023e44c"
+              "Id": "6eb3f2bf-95ea-4c96-9bd5-4db73e8b086d"
             },
-            "Id": "b1efdeff-4e9e-4bf0-8f9c-e12b52ddd216"
+            "Id": "f8f91d33-ee82-4b22-86f3-8d4e49d11806"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -263,14 +297,14 @@
               }
             },
             "Value": "待出药",
-            "Id": "62b2dc6f-44e5-4a53-bdc3-aa36050f0198"
+            "Id": "246d7363-e365-4813-bd91-72d9e1d40544"
           },
-          "Id": "5f03ad58-8f5e-4659-8867-b581243ecd6d"
+          "Id": "7c554b78-0431-48f4-87ec-007b7ac403ed"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "04cf1d3e-a88b-440e-a308-b576c7218474"
+          "Id": "8b69f2ae-ca50-48b4-85c3-d01f7fb73f35"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -304,7 +338,21 @@
         "DisplayColumnBindingInfo": {
           "TableName": "项目字典表",
           "ColumnName": "项目名称"
-        }
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "门诊挂号单_项目表",
@@ -314,6 +362,20 @@
     "8,23": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -402,7 +464,7 @@
                           ]
                         },
                         "value": "药品",
-                        "Id": "9d53e7d2-ed06-48b1-92a3-e98731b646c0"
+                        "Id": "94016aa7-09f5-4589-9db3-d857ed3f42a1"
                       },
                       "Condition2": {
                         "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -419,9 +481,9 @@
                           "SerializeProperty": "=药房检查科结束项目!AN9"
                         },
                         "compareType": 2,
-                        "Id": "7df5fa08-6d26-4b09-88af-f21b6b179352"
+                        "Id": "d4439bac-3133-4cf3-9b49-e3f39d489d2d"
                       },
-                      "Id": "a49c32d3-2a96-4ca7-86d6-168ff89eba40"
+                      "Id": "4d23b1f3-3723-4786-be89-6522eaca7837"
                     },
                     "CommandList": [
                       {
@@ -457,7 +519,7 @@
                     ]
                   },
                   "value": "0",
-                  "Id": "23e18fe5-2f3a-4d9e-842d-ad8d824e4cb0"
+                  "Id": "2593836a-49c3-47f7-83d2-1db97b2cec1b"
                 },
                 "CommandList": [
                   {
@@ -533,7 +595,7 @@
                                 ]
                               },
                               "value": "药品",
-                              "Id": "a1e37133-6f63-4c36-aa13-7360033d3dc9"
+                              "Id": "c48b13bf-e4cf-4e32-b541-41d104e1e035"
                             },
                             "CommandList": [
                               {
@@ -552,7 +614,7 @@
                                     "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                     "SerializeProperty": "=药房检查科结束项目!E9"
                                   },
-                                  "Id": "4cc3f1d6-2aae-478f-a86c-e1a6de86cb39"
+                                  "Id": "5a7be8b8-b0c7-49c1-87f9-bc0a7abec430"
                                 },
                                 "UpdateValues": [
                                   {
@@ -604,7 +666,7 @@
                             ]
                           },
                           "value": "true",
-                          "Id": "b37b1bf8-c639-4327-9011-7d14c73b2605"
+                          "Id": "ee959c56-d1d4-47d2-bfe1-3bd75ba46430"
                         },
                         "CommandList": [
                           {
@@ -622,7 +684,7 @@
                                     ]
                                   },
                                   "value": "1",
-                                  "Id": "23ce4a46-d1e5-45b3-8a75-291fc801e86d"
+                                  "Id": "00f5df9c-1cef-48d7-9933-b47a645a151e"
                                 },
                                 "CommandList": [
                                   {
@@ -641,7 +703,7 @@
                                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                         "SerializeProperty": "=药房检查科结束项目!BF17"
                                       },
-                                      "Id": "d1623d6e-2cc0-4c29-867e-bce3519464ad"
+                                      "Id": "e5bab8b8-8cff-4f41-88b3-00a45820019b"
                                     },
                                     "UpdateValues": [
                                       {
@@ -675,12 +737,12 @@
                                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                                         "SerializeProperty": "=药房检查科结束项目!BF17"
                                       },
-                                      "Id": "872015dd-a7dd-40eb-8b34-ce5453dfd736"
+                                      "Id": "a9f7ed64-fd3e-47e3-8ec6-94f90571d500"
                                     },
                                     "UpdateValues": [
                                       {
                                         "ColumnName": "门诊挂号状态",
-                                        "Value": "待就诊"
+                                        "Value": "待复诊"
                                       }
                                     ]
                                   },
@@ -714,7 +776,21 @@
           }
         ],
         "Text": "确认出药/检查",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
