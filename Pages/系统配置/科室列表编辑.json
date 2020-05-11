@@ -31,14 +31,34 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "医院科室字典表",
         "ColumnName": "科室名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "3,3": {
@@ -64,7 +84,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "9ac1806f-e93e-4de0-98f4-45ecc209cc06"
+          "Id": "c5339c04-63ef-4570-9aaf-3fb7fa8ef159"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -79,12 +99,32 @@
         "ColumnName": "医生姓名"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,10": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy"
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -94,7 +134,21 @@
     },
     "4,16": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy"
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -103,7 +157,21 @@
     },
     "4,25": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy"
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -114,14 +182,32 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "ErrorMessage": "请输入一个大于0的数。"
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "请输入一个大于0的数。",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,33": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "DecimalPlacesNumber": 2,
-        "Use1000Sepatator": true
+        "Use1000Sepatator": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "医院医生字典表",
@@ -132,7 +218,11 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "ErrorMessage": "请输入一个大于0的数。"
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "请输入一个大于0的数。",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "26,28": {
@@ -154,7 +244,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "59655e3c-1d4c-4315-89d3-24f16ce237e5"
+                  "Id": "10218c60-b7cd-4c06-9ac9-6040ecc1fef0"
                 },
                 "CommandList": [
                   {
@@ -188,7 +278,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "26,34": {
@@ -200,7 +304,21 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
@@ -225,7 +343,8 @@
         "Foreground": 1
       },
       {
-        "FontFamily": 0
+        "FontFamily": 0,
+        "Formatter": 3
       },
       {
         "Background": null,
@@ -236,14 +355,14 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderLeft": null
       },
       {
-        "FontFamily": 3
+        "FontFamily": 4
       },
       {
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderBottom": null
       },
       {
@@ -254,11 +373,11 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderRight": null
       },
       {
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
@@ -266,10 +385,10 @@
       {
         "Background": null,
         "FontFamily": 0,
-        "FontWeight": 4,
+        "FontWeight": 5,
         "Foreground": 1,
         "TextIndent": 20,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 6,
         "BorderTop": 0,
         "BorderLeft": 0
       },
@@ -279,27 +398,27 @@
       {
         "Background": null,
         "FontFamily": 0,
-        "FontWeight": 4,
+        "FontWeight": 5,
         "Foreground": 1,
         "TextIndent": 20,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 6,
         "BorderTop": 0
       },
       {
         "Background": null,
         "FontFamily": 0,
         "TextIndent": 0,
-        "HorizontalAlignment": 7,
+        "HorizontalAlignment": 8,
         "BorderTop": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderTop": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderTop": 0,
         "BorderRight": 0
       },
@@ -308,7 +427,7 @@
         "FontFamily": 0,
         "FontSize": 14.670000076293945,
         "TextIndent": 20,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 6,
         "BorderLeft": 0
       },
       {
@@ -316,50 +435,50 @@
         "FontFamily": 0,
         "FontSize": 14.670000076293945,
         "TextIndent": 20,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 6
       },
       {
         "Background": null,
         "FontFamily": 0,
         "FontSize": 14.670000076293945,
         "TextIndent": 0,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 8
       },
       {
         "Background": null,
         "FontFamily": 0,
-        "Formatter": 8,
+        "Formatter": 9,
         "TextIndent": 20,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 6
       },
       {
         "Background": null,
-        "FontFamily": 3
+        "FontFamily": 4
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderRight": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderLeft": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderBottom": 0,
         "BorderLeft": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderBottom": 0
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderBottom": 0,
         "BorderRight": 0
       },
@@ -368,18 +487,18 @@
         "FontFamily": 0,
         "Formatter": 2,
         "TextIndent": 0,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 8
       },
       {
         "Background": null,
-        "FontFamily": 3,
+        "FontFamily": 4,
         "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Formatter": 2,
         "TextIndent": 0,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 8
       },
       {
         "Background": null
@@ -390,6 +509,7 @@
         "微软雅黑",
         "Text 1 25",
         "[AUTO]General",
+        "@",
         "宋体",
         "Bold",
         "Left",
@@ -399,7 +519,7 @@
       ],
       "Borders": [
         {
-          "Color": 6
+          "Color": 7
         }
       ]
     },
@@ -1247,7 +1367,7 @@
       "40": 31
     },
     "SheetStyle": {
-      "FontFamily": 3
+      "FontFamily": 4
     }
   },
   "Spans": [

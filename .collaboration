@@ -61,16 +61,7 @@
   },
   {
     "ModuleName": "FGC_登录",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-11T17:07:40.7126253+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\内建页面\\FGC_登录.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_维护中",
@@ -110,16 +101,7 @@
   },
   {
     "ModuleName": "挂号",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-11T17:05:22.6658271+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\挂号\\挂号.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\系统配置",
@@ -131,16 +113,7 @@
   },
   {
     "ModuleName": "科室列表编辑",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-11T17:06:08.8153062+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\系统配置\\科室列表编辑.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "管理员首页",
@@ -172,16 +145,7 @@
   },
   {
     "ModuleName": "药品信息",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-11T17:06:39.8693545+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品信息\\药品信息.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "药品信息管理",
@@ -189,16 +153,7 @@
   },
   {
     "ModuleName": "药品进货",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-11T17:07:02.8240003+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\药房\\药品信息\\药品进货.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\药房\\药品出药_检查科出结果",

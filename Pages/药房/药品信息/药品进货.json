@@ -51,7 +51,21 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -74,6 +88,20 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": "入库"
       },
       "BindingInfo": {
@@ -91,7 +119,21 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -103,6 +145,20 @@
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": 1
       },
       "DataValidationInfo": {
@@ -110,14 +166,32 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "ErrorMessage": "请输入一个大于0的整数。"
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "请输入一个大于0的整数。",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "9,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "13,8": {
@@ -218,7 +292,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=药品进货!H2"
               },
-              "Id": "d2682a2a-373a-4b7d-9c2b-28572436a3dd"
+              "Id": "7bceee41-482b-4610-ac5f-2979ed20d072"
             },
             "UpdateValues": [
               {
@@ -237,7 +311,21 @@
         ],
         "Text": "确定",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "13,13": {
@@ -249,7 +337,21 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
@@ -273,10 +375,11 @@
         "FontFamily": 2
       },
       {
-        "FontFamily": 3
+        "FontFamily": 3,
+        "Formatter": 4
       },
       {
-        "Formatter": 4
+        "Formatter": 5
       },
       {
         "FontFamily": null
@@ -297,11 +400,14 @@
         "BorderRight": null
       },
       {
-        "Formatter": 4,
+        "Formatter": 5,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
+      },
+      {
+        "FontFamily": 3
       },
       {
         "Background": null,
@@ -319,7 +425,7 @@
       },
       {
         "FontFamily": 3,
-        "Formatter": 4
+        "Formatter": 5
       },
       {
         "BorderRight": null
@@ -331,6 +437,7 @@
         "Right",
         "宋体",
         "微软雅黑",
+        "@",
         "[AUTO]General"
       ]
     },
@@ -403,7 +510,7 @@
       "5,4": 3,
       "5,5": 3,
       "5,6": 3,
-      "5,7": 4,
+      "5,7": 10,
       "5,8": 3,
       "5,9": 3,
       "5,10": 3,
@@ -418,22 +525,22 @@
       "6,3": 6,
       "6,4": 6,
       "6,5": 6,
-      "6,7": 10,
-      "6,8": 10,
-      "6,9": 10,
-      "6,10": 10,
-      "6,11": 10,
-      "6,12": 10,
-      "6,13": 11,
-      "6,14": 11,
-      "6,15": 10,
-      "6,16": 10,
+      "6,7": 11,
+      "6,8": 11,
+      "6,9": 11,
+      "6,10": 11,
+      "6,11": 11,
+      "6,12": 11,
+      "6,13": 12,
+      "6,14": 12,
+      "6,15": 11,
+      "6,16": 11,
       "7,2": 2,
       "7,3": 3,
       "7,4": 3,
       "7,5": 3,
       "7,6": 3,
-      "7,7": 12,
+      "7,7": 13,
       "7,8": 3,
       "7,9": 3,
       "7,10": 3,
@@ -464,7 +571,7 @@
       "9,4": 3,
       "9,5": 3,
       "9,6": 3,
-      "9,7": 4,
+      "9,7": 10,
       "9,8": 3,
       "9,9": 3,
       "9,10": 3,
@@ -484,36 +591,36 @@
       "11,3": 6,
       "11,4": 6,
       "11,5": 6,
-      "11,7": 11,
-      "11,8": 11,
-      "11,9": 11,
-      "11,10": 11,
-      "11,11": 11,
-      "11,12": 11,
-      "11,13": 11,
-      "11,14": 11,
-      "11,15": 11,
-      "11,16": 11,
+      "11,7": 12,
+      "11,8": 12,
+      "11,9": 12,
+      "11,10": 12,
+      "11,11": 12,
+      "11,12": 12,
+      "11,13": 12,
+      "11,14": 12,
+      "11,15": 12,
+      "11,16": 12,
       "11,19": 1,
       "12,2": 6,
       "12,3": 6,
       "12,4": 6,
       "12,5": 6,
-      "12,7": 10,
-      "12,8": 10,
-      "12,9": 10,
-      "12,10": 10,
-      "12,11": 10,
-      "12,12": 10,
-      "12,13": 11,
-      "12,14": 11,
-      "12,15": 10,
-      "12,16": 10,
-      "13,8": 12,
+      "12,7": 11,
+      "12,8": 11,
+      "12,9": 11,
+      "12,10": 11,
+      "12,11": 11,
+      "12,12": 11,
+      "12,13": 12,
+      "12,14": 12,
+      "12,15": 11,
+      "12,16": 11,
+      "13,8": 13,
       "13,9": 3,
       "13,10": 3,
       "13,11": 3,
-      "13,13": 4,
+      "13,13": 10,
       "13,14": 3,
       "13,15": 3,
       "13,16": 3,
@@ -522,7 +629,7 @@
       "14,5": 6,
       "14,6": 6,
       "14,7": 6,
-      "14,8": 13
+      "14,8": 14
     },
     "SheetStyle": {
       "FontFamily": 2

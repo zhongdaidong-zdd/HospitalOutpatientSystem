@@ -44,7 +44,21 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -59,14 +73,34 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
         "ColumnName": "项目名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "5,7": {
@@ -99,7 +133,7 @@
                     ]
                   },
                   "value": "药品",
-                  "Id": "ed74a78f-56e7-4bff-b42e-f9c7303b05eb"
+                  "Id": "fdc82eb6-881f-4933-9aae-93743fb8e19f"
                 },
                 "CommandList": [
                   {
@@ -150,6 +184,20 @@
               }
             ]
           }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
         ]
       },
       "BindingInfo": {
@@ -157,13 +205,33 @@
         "ColumnName": "类型"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "7,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -174,13 +242,31 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "ErrorMessage": "请输入一个大于0的整数"
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "请输入一个大于0的整数",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "9,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -191,14 +277,32 @@
         "CompareParamType": 4,
         "IgnoreBlank": false,
         "FirstParamValue": "0",
-        "ErrorMessage": "请输入一个大于0的整数"
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "请输入一个大于0的整数",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "11,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "项目字典表",
@@ -224,7 +328,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "5ded33e2-2780-40f7-9c72-3a46217866f2"
+                  "Id": "4b37f13c-2ea7-4b94-aa70-8fe5e3a28a72"
                 },
                 "CommandList": [
                   {
@@ -259,7 +363,21 @@
         ],
         "Text": "确定",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "15,12": {
@@ -271,7 +389,21 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
@@ -289,7 +421,8 @@
         "FontFamily": 2
       },
       {
-        "FontFamily": 3
+        "FontFamily": 3,
+        "Formatter": 4
       },
       {
         "FontFamily": null
@@ -307,14 +440,14 @@
       {
         "Background": null,
         "FontFamily": 2,
-        "FontStretch": 4,
-        "FontStyle": 4,
-        "FontWeight": 4,
+        "FontStretch": 5,
+        "FontStyle": 5,
+        "FontWeight": 5,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "VerticalAlignment": 6,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
@@ -324,18 +457,21 @@
         "BorderRight": null
       },
       {
+        "FontFamily": 3
+      },
+      {
         "FontFamily": 3,
         "BorderTop": null
       },
       {
         "FontFamily": 3,
-        "FontStretch": 4,
-        "FontStyle": 4,
-        "FontWeight": 4,
-        "Formatter": 7,
+        "FontStretch": 5,
+        "FontStyle": 5,
+        "FontWeight": 5,
+        "Formatter": 8,
         "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "VerticalAlignment": 6,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 7,
         "WordWrap": false,
         "Strikethrough": false
       }
@@ -346,6 +482,7 @@
         "Right",
         "宋体",
         "微软雅黑",
+        "@",
         "Normal",
         "General",
         "Center",
@@ -413,7 +550,7 @@
       "5,4": 2,
       "5,5": 2,
       "5,6": 2,
-      "5,7": 3,
+      "5,7": 8,
       "5,8": 2,
       "5,9": 2,
       "5,10": 2,
@@ -448,7 +585,7 @@
       "7,4": 2,
       "7,5": 2,
       "7,6": 2,
-      "7,7": 3,
+      "7,7": 8,
       "7,8": 2,
       "7,9": 2,
       "7,10": 2,
@@ -479,7 +616,7 @@
       "9,4": 2,
       "9,5": 2,
       "9,6": 2,
-      "9,7": 3,
+      "9,7": 8,
       "9,8": 2,
       "9,9": 2,
       "9,10": 2,
@@ -488,14 +625,14 @@
       "9,13": 2,
       "9,14": 2,
       "9,15": 2,
-      "9,16": 8,
-      "9,17": 8,
+      "9,16": 9,
+      "9,17": 9,
       "11,2": 1,
       "11,3": 2,
       "11,4": 2,
       "11,5": 2,
       "11,6": 2,
-      "11,7": 3,
+      "11,7": 8,
       "11,8": 2,
       "11,9": 2,
       "11,10": 2,
@@ -512,15 +649,15 @@
       "12,5": 4,
       "12,7": 4,
       "12,8": 2,
-      "12,9": 8,
-      "12,10": 8,
-      "12,11": 8,
-      "12,12": 8,
-      "12,13": 8,
-      "12,14": 8,
-      "12,15": 8,
-      "12,16": 8,
-      "12,17": 8,
+      "12,9": 9,
+      "12,10": 9,
+      "12,11": 9,
+      "12,12": 9,
+      "12,13": 9,
+      "12,14": 9,
+      "12,15": 9,
+      "12,16": 9,
+      "12,17": 9,
       "14,2": 4,
       "14,3": 4,
       "14,4": 4,
@@ -531,12 +668,12 @@
       "15,3": 4,
       "15,4": 4,
       "15,5": 4,
-      "15,7": 9,
+      "15,7": 10,
       "15,8": 2,
       "15,9": 2,
       "15,10": 2,
       "15,11": 2,
-      "15,12": 3,
+      "15,12": 8,
       "15,13": 2,
       "15,14": 2,
       "15,15": 2
