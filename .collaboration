@@ -173,16 +173,7 @@
   },
   {
     "ModuleName": "使用文档",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-12T10:54:12.2433503+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\使用文档.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "首页",
@@ -210,32 +201,7 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-05-12T10:53:46.7156769+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\flowchart.jpg",
-      "image\\Inquiry.png",
-      "image\\logo.png",
-      "image\\Payment.png",
-      "image\\Registration.png",
-      "image\\TakeMedicine.png",
-      "image\\内建登录配图.jpg",
-      "image\\挂号.png",
-      "image\\新增科室.png",
-      "image\\病人提取药品与检查.png",
-      "image\\缴费.png",
-      "image\\缴费记录.png",
-      "image\\药品与检查历史记录.png",
-      "image\\药品管理.png",
-      "image\\药品进货.png",
-      "image\\问诊.png",
-      "image\\问诊记录.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
